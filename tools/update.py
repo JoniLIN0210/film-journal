@@ -3,6 +3,7 @@
 
   python3 tools/update.py            # pick up new "看过" marks from RSS, fill details, rebuild
   python3 tools/update.py --refresh  # also re-fetch details for every film
+  python3 tools/update.py --publish  # after syncing, commit and push so the public site updates
 
 Flow: Douban RSS (latest ~10 marks) -> data/library.json (source of truth)
       -> film details from Douban's mobile JSON endpoint -> posters/<id>.jpg -> data/movies.js
@@ -199,3 +200,12 @@ if __name__ == '__main__':
     rows = build(lib)
     print(f'完成：共 {len(rows)} 部（剧集 {sum(r["tv"] for r in rows)} 部），新增 {new} 部，本次补全详情 {done} 部，新下载海报 {posters} 张。'
           + (f' 还有 {left} 部暂用列表页信息，下次运行会继续补。' if left else ''))
+    if '--publish' in sys.argv:
+        git = lambda *a: subprocess.run(['git', '-C', ROOT, *a], capture_output=True, text=True)
+        git('add', '-A')
+        if git('diff', '--cached', '--quiet').returncode == 0:
+            print('没有变化，公开网站无需更新。')
+        else:
+            git('commit', '-q', '-m', f'更新观影数据 {datetime.now(CST).strftime("%Y-%m-%d")}（共 {len(rows)} 部）')
+            res = git('push', '-q')
+            print('已推送，公开网站约 1 分钟后更新。' if res.returncode == 0 else '! 推送失败：' + res.stderr.strip())
