@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{me} 的海报馆</title>
+<meta name="description" content="看过的每一部影视，它们在世界各地的海报。">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  /* 海报馆 — a dark, full-screen viewing room. One film at a time, the poster as large as the screen allows. */
+  html, body.px { height: 100%; overflow: hidden; background: #050506; }
+  .px { --ink: #f4f1ea; --dim: rgba(244, 241, 234, .58); --faint: rgba(244, 241, 234, .16); color: var(--ink); }
+  .px button { background: none; border: 0; color: inherit; cursor: pointer; padding: 0; }
+  .px a { color: inherit; }
+
+  .px-bg { position: fixed; inset: -8%; z-index: 0; }
+  .px-bg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(70px) saturate(1.25) brightness(.55); transform: scale(1.1); opacity: 0; transition: opacity 1.2s ease; }
+  .px-bg img.on { opacity: 1; }
+  .px-bg::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 62% 45%, rgba(5, 5, 6, .05), rgba(5, 5, 6, .78) 72%), linear-gradient(90deg, rgba(5, 5, 6, .7), rgba(5, 5, 6, 0) 46%); }
+  .px-grain { position: fixed; inset: 0; z-index: 1; pointer-events: none; opacity: .07; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+  .px-room { position: fixed; inset: 0; z-index: 2; display: grid; grid-template-columns: minmax(300px, 34%) 1fr; grid-template-rows: auto 1fr auto; padding: 0 clamp(20px, 3vw, 48px); }
+  .px-top { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 0 10px; }
+  .px-brand { font-family: var(--cn); font-weight: 900; font-size: 18px; letter-spacing: .08em; text-decoration: none; }
+  .px-brand i { font-family: var(--display); font-weight: 400; margin-left: 10px; letter-spacing: 0; color: var(--lime); }
+  .px-brand .me { font-family: var(--sans); font-weight: 400; margin-right: 6px; }
+  .px-tools { display: flex; align-items: center; gap: 8px; }
+  .px-tools > * { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; border: 1px solid var(--faint) !important; border-radius: 999px; padding: 8px 14px !important; text-decoration: none; transition: background .2s, color .2s, border-color .2s; }
+  .px-tools > *:hover, .px-tools > [aria-pressed=true] { background: var(--lime) !important; color: var(--black); border-color: var(--lime) !important; }
+
+  .px-info { align-self: center; padding-right: clamp(16px, 3vw, 48px); max-height: 100%; overflow: auto; scrollbar-width: none; }
+  .px-info::-webkit-scrollbar { display: none; }
+  .px-kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; color: var(--dim); text-transform: uppercase; }
+  .px-kicker b { color: var(--lime); font-weight: 400; }
+  .px-title { font-family: var(--cn); font-weight: 900; font-size: clamp(36px, 4.4vw, 76px); line-height: 1.04; letter-spacing: -.01em; margin: 14px 0 8px; text-wrap: balance; }
+  .px-orig { font-family: var(--display); font-style: italic; font-size: clamp(18px, 1.7vw, 26px); color: var(--dim); line-height: 1.25; }
+  .px-meta { margin-top: 18px; font-size: 14px; color: var(--dim); }
+  .px-meta .stars { color: var(--lime); font-size: 13px; letter-spacing: 3px; margin-left: 6px; }
+  .px-quote { margin: 22px 0 0; padding-left: 16px; border-left: 2px solid var(--lime); font-family: var(--cn); font-size: 15px; line-height: 1.8; color: rgba(244, 241, 234, .86); max-width: 440px; }
+  .px-quote small { display: block; font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--dim); margin-top: 6px; }
+  .px-version { margin-top: 30px; display: flex; align-items: baseline; gap: 14px; }
+  .px-version .n { font-family: var(--display); font-size: clamp(54px, 5.4vw, 92px); line-height: .85; }
+  .px-version .n small { font-size: .38em; color: var(--dim); margin-left: 4px; }
+  .px-version .l { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--dim); text-transform: uppercase; line-height: 1.7; }
+  .px-version .l b { color: var(--ink); font-weight: 400; }
+  .px-note-btn { margin-top: 22px; font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--black) !important; background: var(--lime) !important; padding: 9px 14px !important; border-radius: 999px; }
+  .px-note { margin-top: 18px; font-size: 14px; line-height: 1.85; color: rgba(244, 241, 234, .86); max-width: 460px; }
+  .px-note .h { font-family: var(--cn); font-weight: 700; font-size: 17px; color: var(--ink); margin-bottom: 8px; }
+  .px-note .by { font-family: var(--display); font-style: italic; font-size: 19px; color: var(--lime); margin-bottom: 8px; }
+  .px-note .which { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); margin-bottom: 10px; }
+  .px-note p { margin: 0 0 10px; }
+  .px-note .src { font-family: var(--mono); font-size: 10px; color: var(--dim); }
+  .px-note .src a { margin-right: 10px; }
+  .px-films { margin-top: 28px; display: flex; gap: 8px; }
+  .px-films button { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; color: var(--dim); border: 1px solid var(--faint) !important; border-radius: 999px; padding: 8px 14px !important; max-width: 50%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .px-films button:hover { color: var(--ink); border-color: var(--ink) !important; }
+
+  .px-stage { position: relative; display: flex; align-items: center; justify-content: center; min-height: 0; }
+  .px-frame { position: relative; height: calc(100vh - 196px); height: calc(100dvh - 196px); aspect-ratio: var(--ar, .667); max-width: calc(100% - 130px); }
+  .px-frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transform: scale(.985); transition: opacity .7s ease, transform 1.1s cubic-bezier(.2, .7, .2, 1); box-shadow: 0 40px 120px rgba(0, 0, 0, .65), 0 0 0 1px rgba(255, 255, 255, .04); }
+  .px-frame img.on { opacity: 1; transform: scale(1); }
+  .playing .px-frame img.on { animation: drift 7s ease-out forwards; }
+  @keyframes drift { from { transform: scale(1); } to { transform: scale(1.035); } }
+  .px-frame .loading[hidden] { display: none; }
+  .px-frame .loading { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--dim); }
+  .px-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 52px; height: 52px; border-radius: 50% !important; border: 1px solid var(--faint) !important; font-size: 18px; color: var(--ink); opacity: .7; transition: opacity .2s, background .2s, color .2s; z-index: 3; }
+  .px-arrow:hover { opacity: 1; background: var(--lime) !important; color: var(--black); border-color: var(--lime) !important; }
+  .px-arrow.prev { left: 0; } .px-arrow.next { right: 0; }
+
+  .px-bottom { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(300px, 34%) 1fr; align-items: end; gap: 0; padding: 12px 0 20px; }
+  .px-hint { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); line-height: 1.9; }
+  .px-hint kbd { font: inherit; border: 1px solid var(--faint); border-radius: 3px; padding: 0 5px; color: var(--ink); }
+  .px-strip { display: flex; gap: 8px; justify-content: center; overflow-x: auto; scrollbar-width: none; padding: 4px; }
+  .px-strip::-webkit-scrollbar { display: none; }
+  .px-strip button { flex: none; height: 64px; aspect-ratio: .667; overflow: hidden; opacity: .4; outline: 1px solid transparent; outline-offset: 3px; transition: opacity .2s, outline-color .2s; }
+  .px-strip button img { width: 100%; height: 100%; object-fit: cover; }
+  .px-strip button:hover { opacity: .85; }
+  .px-strip button[aria-current=true] { opacity: 1; outline-color: var(--lime); }
+  .px-credit { position: fixed; right: clamp(20px, 3vw, 48px); bottom: 6px; z-index: 3; font-family: var(--mono); font-size: 9px; letter-spacing: .1em; color: rgba(244, 241, 234, .32); }
+
+  /* index: every film, one poster each */
+  .px-index { position: fixed; inset: 0; z-index: 10; background: rgba(5, 5, 6, .97); overflow-y: auto; padding: 0 clamp(20px, 3vw, 48px) 80px; opacity: 0; pointer-events: none; transition: opacity .35s; }
+  .px-index.open { opacity: 1; pointer-events: auto; }
+  .px-index-head { position: sticky; top: 0; z-index: 2; background: #050506; padding: 22px 0 22px; margin-bottom: 28px; }
+  .px-index-head::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 28px; background: linear-gradient(#050506, rgba(5, 5, 6, 0)); pointer-events: none; }
+  .px-index-head .row1 { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+  .px-index h2 { font-family: var(--cn); font-weight: 900; font-size: clamp(44px, 7vw, 110px); line-height: 1; margin: 26px 0 6px; letter-spacing: -.02em; }
+  .px-index h2 i { font-family: var(--display); font-weight: 400; font-size: .4em; color: var(--lime); margin-left: .3em; }
+  .px-index .sub { color: var(--dim); font-size: 14px; }
+  .px-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 22px; }
+  .px-filters .chip { --line: var(--faint); --fg: var(--ink); --bg: #050506; color: var(--ink); }
+  .px-filters .chip[aria-pressed=true] { background: var(--lime); border-color: var(--lime); color: var(--black); }
+  .px-filters select { background: transparent; color: var(--ink); border: 1px solid var(--faint); border-radius: 999px; height: 34px; padding: 0 14px; font-size: 13px; }
+  .px-filters select option { color: #0b0b0c; }
+  .px-filters .sep { width: 1px; height: 22px; background: var(--faint); margin: 0 4px; }
+  .px-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 34px 18px; }
+  .px-card { text-align: left; }
+  .px-card .img { position: relative; aspect-ratio: .667; overflow: hidden; background: #111; }
+  .px-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.2, .7, .2, 1), filter .3s; filter: saturate(.9); }
+  .px-card:hover img { transform: scale(1.05); filter: saturate(1.1); }
+  .px-card .k { position: absolute; right: 6px; bottom: 6px; font-family: var(--mono); font-size: 10px; background: rgba(5, 5, 6, .75); padding: 3px 7px; letter-spacing: .08em; }
+  .px-card .t { font-family: var(--cn); font-weight: 900; font-size: 15px; line-height: 1.35; margin-top: 10px; }
+  .px-card .m { font-family: var(--mono); font-size: 10px; letter-spacing: .08em; color: var(--dim); margin-top: 3px; }
+  .px-card .m .s { color: var(--lime); }
+
+  @media (max-width: 860px) {
+    html, body.px { overflow: auto; }
+    .px-room { position: relative; inset: auto; min-height: 100%; grid-template-columns: 1fr; grid-template-rows: auto auto auto auto; padding: 0 18px; }
+    .px-top { flex-wrap: wrap; }
+    .px-tools > * { padding: 7px 11px !important; }
+    .px-stage { order: 2; height: 66vh; }
+    .px-frame { height: 100%; max-width: 100%; }
+    .px-arrow { display: none; }
+    .px-info { order: 3; padding: 22px 0 0; overflow: visible; max-height: none; }
+    .px-bottom { order: 4; grid-template-columns: 1fr; }
+    .px-hint { display: none; }
+    .px-strip { justify-content: flex-start; padding: 18px 2px 28px; }
+    .px-credit { position: static; display: block; padding: 0 18px 24px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .px-bg img, .px-frame img { transition: none; }
+    .playing .px-frame img.on { animation: none; }
+  }
+</style>
+</head>
+<body class="px">
+<div class="px-bg" aria-hidden="true"><img alt=""><img alt=""></div>
+<div class="px-grain" aria-hidden="true"></div>
+
+<div class="px-room" id="room">
+  <header class="px-top">
+    <a class="px-brand" href="index.html"><span class="me" data-me></span>的海报馆<i>Poster Room</i></a>
+    <div class="px-tools">
+      <button data-act="index">索引 · Index</button>
+      <button data-act="play" aria-pressed="false">▶ 播放</button>
+      <button data-act="shuffle">随机</button>
+      <a href="index.html">主页</a>
+    </div>
+  </header>
+
+  <section class="px-info" id="info" aria-live="polite"></section>
+
+  <section class="px-stage" id="stage">
+    <button class="px-arrow prev" data-step="-1" aria-label="上一张">←</button>
+    <div class="px-frame" id="frame"><div class="loading">Loading</div><img alt=""><img alt=""></div>
+    <button class="px-arrow next" data-step="1" aria-label="下一张">→</button>
+  </section>
+
+  <footer class="px-bottom">
+    <div class="px-hint"><kbd>←</kbd> <kbd>→</kbd> 同一部的不同版本　<kbd>↑</kbd> <kbd>↓</kbd> 换一部<br><kbd>空格</kbd> 自动播放　<kbd>I</kbd> 索引　<kbd>F</kbd> 全屏</div>
+    <div class="px-strip" id="strip"></div>
+  </footer>
+</div>
+<div class="px-credit">Posters via TMDB · This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
+
+<section class="px-index" id="index" aria-label="海报索引">
+  <div class="px-index-head">
+    <div class="row1"><a class="px-brand" href="index.html"><span class="me" data-me></span>的海报馆<i>Index</i></a><div class="px-tools"><button data-act="close">× 回到放映</button></div></div>
+    <h2>索引<i>every film, every face</i></h2>
+    <div class="sub" id="index-sub"></div>
+    <div class="px-filters" id="filters"></div>
+  </div>
+  <div class="px-grid" id="grid"></div>
+</section>
+
+<script>/* always load the freshest data after an update */ document.write('<script src="data/movies.js?v=' + Date.now() + '"><\/script><script src="data/posters.js?v=' + Date.now() + '"><\/script>');</script>
+<script src="assets/common.js"></script>
+<script>
+const IMG = 'https://image.tmdb.org/t/p/';
+const P = window.POSTERS || {}, NOTES = window.POSTER_NOTES || {};
+const LANG = { '': '无字版', en: '英文版', zh: '中文版', ja: '日文版', ko: '韩文版', fr: '法文版', de: '德文版', es: '西班牙文版', it: '意大利文版', ru: '俄文版', pt: '葡萄牙文版', pl: '波兰文版', cs: '捷克文版', sv: '瑞典文版', da: '丹麦文版', nl: '荷兰文版', tr: '土耳其文版', th: '泰文版', hu: '匈牙利文版', uk: '乌克兰文版', he: '希伯来文版', fi: '芬兰文版', no: '挪威文版', el: '希腊文版', ro: '罗马尼亚文版', ar: '阿拉伯文版', fa: '波斯文版', vi: '越南文版', id: '印尼文版', hi: '印地文版', ka: '格鲁吉亚文版', sk: '斯洛伐克文版', bg: '保加利亚文版', sr: '塞尔维亚文版', hr: '克罗地亚文版', lt: '立陶宛文版', lv: '拉脱维亚文版', et: '爱沙尼亚文版', sl: '斯洛文尼亚文版', ca: '加泰罗尼亚文版' };
+const langOf = (l) => LANG[l] || (l ? l.toUpperCase() + ' 版' : '无字版');
+const ALL = M.filter((m) => P[m.id] && P[m.id].p.length).sort(byDateDesc);
+const total = ALL.reduce((n, m) => n + P[m.id].p.length, 0);
+const years = [...new Set(ALL.map((m) => m.date.slice(0, 4)).filter(Boolean))].sort().reverse();
+
+let list = ALL.slice(), fi = 0, vi = 0, playing = false, timer = null, layer = 0, noteOpen = false, shownPath = '', seq = 0;
+const state = { year: '', five: false, sort: 'date' };
+const room = $('#room'), frame = $('#frame'), idx = $('#index');
+const posters = (m) => P[m.id].p;   // [file_path, lang, aspect, vote]
+
+/* ---------- the viewing room ---------- */
+function preload(m, v) { if (!m) return; const p = posters(m)[v]; if (p) { const i = new Image(); i.src = IMG + 'w780' + p[0]; } }
+function show(dir = 0) {
+  if (!list.length) return;
+  const m = list[fi], ps = posters(m), p = ps[vi];
+  // poster (two layers crossfade); skipped when only the side panel changes
+  if (p[0] !== shownPath) {
+    shownPath = p[0];
+    const my = ++seq, imgs = [...frame.querySelectorAll('img')], next = imgs[layer ^ 1];
+    frame.style.setProperty('--ar', p[2] || .667);
+    next.classList.remove('on');
+    const url = IMG + (innerWidth < 860 ? 'w500' : 'w780') + p[0];
+    const reveal = () => {
+      if (my !== seq) return;   // a newer step already started
+      $('.loading', frame).hidden = true;
+      void next.offsetWidth;   // commit the hidden state first so the fade-in always runs
+      imgs.forEach((im) => im.classList.toggle('on', im === next));
+    };
+    next.onload = reveal;
+    if (next.src === url && next.complete && next.naturalWidth) reveal();   // same image again: no load event fires
+    else next.src = url;
+    next.alt = `《${m.t}》${langOf(p[1])}海报`;
+    layer ^= 1;
+    // background glow from the same poster
+    const bgs = [...document.querySelectorAll('.px-bg img')], b = bgs[layer];
+    const bgUrl = IMG + 'w342' + p[0], glow = () => { if (my === seq) bgs.forEach((im) => im.classList.toggle('on', im === b)); };
+    b.onload = glow;
+    if (b.src === bgUrl && b.complete && b.naturalWidth) glow(); else b.src = bgUrl;
+  }
+  // info
+  const note = NOTES[m.id] && NOTES[m.id].items && NOTES[m.id].items[0];
+  const meta = [m.y, (m.d || []).slice(0, 2).join(' / '), (m.c || [])[0]].filter(Boolean).map(esc).join('　·　');
+  $('#info').innerHTML = `
+    <div class="px-kicker"><b>No. ${String(ALL.indexOf(m) + 1).padStart(3, '0')}</b>　/　${ALL.length}　·　${esc(m.date.replace(/-/g, '.'))} 看过</div>
+    <h1 class="px-title">${esc(m.t)}</h1>
+    ${m.o && m.o !== m.t ? `<div class="px-orig">${esc(m.o)}</div>` : ''}
+    <div class="px-meta">${meta}${m.r ? `<span class="stars">${'★'.repeat(m.r)}</span>` : ''}</div>
+    ${m.cm ? `<blockquote class="px-quote">${esc(m.cm.length > 140 ? m.cm.slice(0, 140) + '…' : m.cm)}<small>— ${esc(ME)} 的短评</small></blockquote>` : ''}
+    <div class="px-version"><div class="n">${String(vi + 1).padStart(2, '0')}<small>/ ${String(ps.length).padStart(2, '0')}</small></div>
+      <div class="l"><b>${esc(langOf(p[1]))}</b><br>${p[3] ? `TMDB ★ ${p[3]}` : '同一部影片的不同海报'}</div></div>
+    ${note ? `<button class="px-note-btn" data-act="note">${noteOpen ? '收起赏析' : '海报赏析 →'}</button>${noteOpen ? noteHTML(note) : ''}` : ''}
+    <div class="px-films">${fi > 0 ? `<button data-jump="-1">↑ ${esc(list[fi - 1].t)}</button>` : ''}${fi < list.length - 1 ? `<button data-jump="1">↓ ${esc(list[fi + 1].t)}</button>` : ''}</div>`;
+  // filmstrip
+  $('#strip').innerHTML = ps.map((q, i) => `<button data-v="${i}" aria-current="${i === vi}" aria-label="第 ${i + 1} 张"><img loading="lazy" src="${IMG}w154${q[0]}" alt=""></button>`).join('');
+  const strip = $('#strip'), cur2 = $('#strip [aria-current=true]');   // centre the current thumbnail without scrolling the page
+  if (cur2) strip.scrollTo({ left: cur2.offsetLeft - strip.clientWidth / 2 + cur2.clientWidth / 2, behavior: 'smooth' });
+  // neighbours, so the next step is instant
+  preload(m, vi + 1); preload(m, vi - 1); preload(list[fi + 1], 0); preload(list[fi - 1], 0);
+  history.replaceState(null, '', `#${m.id}/${vi + 1}`);
+  document.title = `《${m.t}》· ${ME} 的海报馆`;
+}
+function noteHTML(n) {
+  return `<div class="px-note">
+    <div class="which">关于其中一张海报${[n.kind, n.region].filter(Boolean).length ? '：' + esc([n.region, n.kind].filter(Boolean).join(' ')) : ''}</div>
+    ${n.headline ? `<div class="h">${esc(n.headline)}</div>` : ''}
+    ${n.designer ? `<div class="by">${esc(n.designer)}</div>` : ''}
+    ${(n.text || '').split('\n').filter(Boolean).map((t) => `<p>${esc(t)}</p>`).join('')}
+    ${(n.sources || []).length ? `<div class="src">参考：${n.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('')}</div>` : ''}</div>`;
+}
+const stepV = (d) => { const n = posters(list[fi]).length; vi = (vi + d + n) % n; show(d); };
+const stepF = (d) => { if (!list.length) return; fi = (fi + d + list.length) % list.length; vi = 0; noteOpen = false; show(d); };
+function advance() {   // autoplay: through this film's versions, then on to the next film
+  if (vi < posters(list[fi]).length - 1) stepV(1); else stepF(1);
+}
+function setPlay(on) {
+  playing = on; clearInterval(timer);
+  room.classList.toggle('playing', on);
+  document.querySelector('[data-act=play]').setAttribute('aria-pressed', on);
+  document.querySelector('[data-act=play]').textContent = on ? '❚❚ 暂停' : '▶ 播放';
+  if (on) timer = setInterval(advance, 6000);
+}
+
+/* ---------- index ---------- */
+function applyFilters() {
+  list = ALL.filter((m) => (!state.year || m.date.startsWith(state.year)) && (!state.five || m.r === 5));
+  if (state.sort === 'year') list.sort((a, b) => (b.y || 0) - (a.y || 0));
+  if (state.sort === 'old') list.sort((a, b) => (a.y || 9999) - (b.y || 9999));
+  if (state.sort === 'most') list.sort((a, b) => posters(b).length - posters(a).length);
+  return list;
+}
+function renderIndex() {
+  applyFilters();
+  $('#index-sub').textContent = `${ALL.length} 部影视，${total} 张海报（同一张图的不同语言版本已合并）。当前 ${list.length} 部。`;
+  $('#filters').innerHTML = [['', '全部年份'], ...years.map((y) => [y, y])].map(([v, l]) => `<button class="chip" data-year="${v}" aria-pressed="${state.year === v}">${l}</button>`).join('')
+    + `<span class="sep"></span><button class="chip" data-five aria-pressed="${state.five}">只看五星</button>`
+    + `<select id="sort" aria-label="排序"><option value="date">最近看过</option><option value="year">上映年份 新→旧</option><option value="old">上映年份 旧→新</option><option value="most">海报最多</option></select>`;
+  $('#sort').value = state.sort;
+  $('#grid').innerHTML = list.map((m, i) => `<button class="px-card" data-go="${i}"><div class="img"><img loading="lazy" src="${IMG}w342${posters(m)[0][0]}" alt=""><span class="k">${posters(m).length} 款</span></div>
+    <div class="t">${esc(m.t)}</div><div class="m">${[m.y, m.date.slice(0, 4) + ' 看过'].filter(Boolean).join(' · ')}${m.r === 5 ? ' <span class="s">★★★★★</span>' : ''}</div></button>`).join('')
+    || '<p class="sub">没有符合条件的影片。</p>';
+}
+const openIndex = () => { setPlay(false); renderIndex(); idx.classList.add('open'); idx.scrollTop = 0; };
+const closeIndex = () => idx.classList.remove('open');
+idx.addEventListener('click', (e) => {
+  const c = e.target.closest('.chip');
+  if (c) { if ('year' in c.dataset) state.year = c.dataset.year; if ('five' in c.dataset) state.five = !state.five; renderIndex(); return; }
+  const g = e.target.closest('[data-go]');
+  if (g) { fi = +g.dataset.go; vi = 0; noteOpen = false; closeIndex(); show(); return; }
+  if (e.target.closest('[data-act=close]')) { closeIndex(); }
+});
+idx.addEventListener('change', (e) => { if (e.target.id === 'sort') { state.sort = e.target.value; renderIndex(); } });
+
+/* ---------- controls ---------- */
+document.addEventListener('click', (e) => {
+  if (idx.contains(e.target)) return;
+  const t = e.target.closest('[data-act],[data-step],[data-jump],[data-v]');
+  if (!t) return;
+  if (t.dataset.step) stepV(+t.dataset.step);
+  if (t.dataset.jump) stepF(+t.dataset.jump);
+  if (t.dataset.v) { vi = +t.dataset.v; show(); }
+  const a = t.dataset.act;
+  if (a === 'index') openIndex();
+  if (a === 'play') setPlay(!playing);
+  if (a === 'note') { noteOpen = !noteOpen; show(); }
+  if (a === 'shuffle') { fi = Math.floor(Math.random() * list.length); vi = Math.floor(Math.random() * posters(list[fi]).length); noteOpen = false; show(); }
+  if (playing && a !== 'play') setPlay(true);   // restart the clock after a manual step
+});
+document.addEventListener('keydown', (e) => {
+  if (e.target.closest && e.target.closest('input, select, textarea')) return;
+  if (idx.classList.contains('open')) { if (e.key === 'Escape' || e.key.toLowerCase() === 'i') closeIndex(); return; }
+  const k = e.key;
+  if (k === 'ArrowRight') stepV(1); else if (k === 'ArrowLeft') stepV(-1);
+  else if (k === 'ArrowDown' || k === 'j') stepF(1); else if (k === 'ArrowUp' || k === 'k') stepF(-1);
+  else if (k === ' ') setPlay(!playing);
+  else if (k.toLowerCase() === 'i') openIndex();
+  else if (k.toLowerCase() === 'f') { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen?.(); }
+  else return;
+  e.preventDefault();
+  if (playing && k !== ' ') setPlay(true);
+});
+let touch = null;   // swipe: left/right = versions, up/down on the poster = films
+$('#stage').addEventListener('touchstart', (e) => { touch = [e.touches[0].clientX, e.touches[0].clientY]; }, { passive: true });
+$('#stage').addEventListener('touchend', (e) => {
+  if (!touch) return;
+  const dx = e.changedTouches[0].clientX - touch[0], dy = e.changedTouches[0].clientY - touch[1]; touch = null;
+  if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) stepV(dx < 0 ? 1 : -1);
+  else if (Math.abs(dy) > 60) stepF(dy < 0 ? 1 : -1);
+});
+
+/* ---------- start: deep link (#doubanId/version) or the most recent film ---------- */
+if (!ALL.length) {
+  $('#info').innerHTML = '<h1 class="px-title">海报馆还是空的</h1><p class="px-meta">运行一次 tools/update.py 就会从 TMDB 收集海报。</p>';
+} else {
+  const [hid, hv] = location.hash.slice(1).split('/');
+  const at = ALL.findIndex((m) => m.id === hid);
+  if (at >= 0) { fi = at; vi = Math.max(0, Math.min(posters(ALL[at]).length - 1, (+hv || 1) - 1)); }
+  show();
+}
+</script>
+</body>
+</html>

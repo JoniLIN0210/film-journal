@@ -7,6 +7,7 @@
 
 Flow: Douban RSS (latest ~10 marks) -> data/library.json (source of truth)
       -> film details from Douban's mobile JSON endpoint -> posters/<id>.jpg -> data/movies.js
+      -> poster archive from TMDB (tools/posters.py) -> data/posters.js
 The RSS only carries the most recent ~10 marks (books and music included), so run this
 at least once every ~10 marks; anything older has to be re-imported from the browser.
 """
@@ -198,6 +199,12 @@ if __name__ == '__main__':
     posters = fetch_posters(lib)
     save(lib)
     rows = build(lib)
+    try:   # poster archive (TMDB); only new films are looked up, so this is quick after the first run
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import posters as poster_room
+        poster_room.run()
+    except Exception as e:
+        print('! 海报馆没有更新：', e)
     print(f'完成：共 {len(rows)} 部（剧集 {sum(r["tv"] for r in rows)} 部），新增 {new} 部，本次补全详情 {done} 部，新下载海报 {posters} 张。'
           + (f' 还有 {left} 部暂用列表页信息，下次运行会继续补。' if left else ''))
     if '--publish' in sys.argv:
