@@ -5165,7 +5165,37 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2654309783.jpg",
    "intro": "1989-07-26 / 历苏 / 莉娜·法鲁吉亚 / Hans Strydom / Eiros / Nadies / Treasure Tshabalala / Erick Bowen / Pierre van Pletzen / Lourens Swanepoel / Richard Loring / 南非 / 博茨瓦纳 / 加美·尤伊斯 / 98 分钟 / 上帝也疯狂2 / 喜剧 / Jamie Uys / 英语 / 南非荷兰语 / Ungwatsi",
-   "orig": "The Gods Must Be Crazy II"
+   "orig": "The Gods Must Be Crazy II",
+   "detail": {
+    "title": "上帝也疯狂2",
+    "original_title": "The Gods Must Be Crazy II",
+    "year": 1989,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "98分钟"
+    ],
+    "genres": [
+     "喜剧"
+    ],
+    "countries": [
+     "南非",
+     "博茨瓦纳"
+    ],
+    "languages": [
+     "英语",
+     "南非荷兰语",
+     "Ungwatsi"
+    ],
+    "directors": [
+     "加美·尤伊斯"
+    ],
+    "actors": [
+     "历苏",
+     "Lena Farugia",
+     "Hans Strydom"
+    ]
+   }
   },
   "26303622": {
    "id": "26303622",
@@ -5217,7 +5247,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2505048077.jpg",
    "intro": "1994-09-10(多伦多电影节) / 牛振华 / 雷恪生 / 李强 / 句号 / 王劲松 / 戈治均 / 佘南南 / 张嘉益 / 刘国祥 / 徐学政 / 中国大陆 / 中国香港 / 黄建新 / 杨亚洲 / 148分钟 / 205分钟(电视剧加长版) / 剧情 / 黄欣 Xin Huang / 孙毅安 Yi-an Sun / 刘醒龙 Xinglong Liu / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "背靠背，脸对脸",
+    "original_title": "",
+    "year": 1994,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "148分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "黄建新",
+     "杨亚洲"
+    ],
+    "actors": [
+     "牛振华",
+     "雷恪生",
+     "李强",
+     "句号",
+     "王劲松",
+     "戈治均"
+    ]
+   }
   },
   "1298506": {
    "id": "1298506",
@@ -5271,7 +5333,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2173719538.jpg",
    "intro": "1980-09-10(南非) / 1981-08-21(挪威) / 马瑞斯·威尔斯 / 历苏 / Sandra Prinsloo / Louw Verwey / Michael Thys / Nic de Jager / Fanyana H. Sidumo / Joe Seakatsie / 布莱恩·奥肖内西 / 肯·甘普 / 南非 / 博茨瓦纳 / 加美·尤伊斯 / 109分钟 / 上帝也疯狂 / 喜剧 / Jamie Uys / 英语 / 南非荷兰语 / Ungwatsi",
-   "orig": "The Gods Must Be Crazy"
+   "orig": "The Gods Must Be Crazy",
+   "detail": {
+    "title": "上帝也疯狂",
+    "original_title": "The Gods Must Be Crazy",
+    "year": 1980,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "109分钟"
+    ],
+    "genres": [
+     "喜剧"
+    ],
+    "countries": [
+     "南非",
+     "博茨瓦纳"
+    ],
+    "languages": [
+     "英语",
+     "南非荷兰语",
+     "Ungwatsi"
+    ],
+    "directors": [
+     "加美·尤伊斯"
+    ],
+    "actors": [
+     "马瑞斯·威尔斯",
+     "Sandra Prinsloo",
+     "历苏",
+     "Louw Verwey",
+     "Michael Thys"
+    ]
+   }
   },
   "1291875": {
    "id": "1291875",
@@ -6122,7 +6216,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2549148229.jpg",
    "intro": "2019-03-01(中国大陆) / 姚晨 / 倪大红 / 郭京飞 / 杨祐宁 / 李念 / 高鑫 / 高露 / 陈瑾 / 张晨光 / 王东 / 中国大陆 / 简川訸 / 45分钟 / 剧情 / 家庭 / 王三毛 Sanmao Wang / 磊子 Leizi / 阿耐 A Nai / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "都挺好",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": true,
+    "episodes": 46,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "剧情",
+     "家庭"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "简川訸"
+    ],
+    "actors": [
+     "姚晨",
+     "倪大红",
+     "郭京飞",
+     "杨祐宁",
+     "李念",
+     "高鑫"
+    ]
+   }
   },
   "35465232": {
    "id": "35465232",
@@ -6132,7 +6257,38 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2886376181.jpg",
    "intro": "2023-01-14(中国大陆) / 张译 / 张颂文 / 李一桐 / 张志坚 / 吴刚 / 倪大红 / 韩童生 / 李建义 / 石兆琪 / 李健 / 中国大陆 / 徐纪周 / 冯轩 / 陈伟雄 / 45分钟 / 剧情 / 犯罪 / 朱俊懿 Junyi Zhu / 徐纪周 Jizhou Xu / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "狂飙",
+    "original_title": "",
+    "year": 2023,
+    "is_tv": true,
+    "episodes": 39,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "剧情",
+     "犯罪"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "徐纪周"
+    ],
+    "actors": [
+     "张译",
+     "张颂文",
+     "李一桐",
+     "张志坚",
+     "吴刚",
+     "倪大红"
+    ]
+   }
   },
   "36289423": {
    "id": "36289423",
@@ -6142,7 +6298,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2917502509.jpg",
    "intro": "2025-01-29(中国大陆) / 肖战 / 庄达菲 / 梁家辉 / 张文昕 / 巴雅尔图 / 阿如那 / 蔡少芬 / 胡军 / 吴兴国 / 纳仁巴特尔·满达赫 / 中国大陆 / 徐克 / 146分钟 / 武侠 / 徐克 Hark Tsui / 宋譞 Xuan Song / 汉语普通话 / 蒙语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "射雕英雄传：侠之大者",
+    "original_title": "",
+    "year": 2025,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "146分钟"
+    ],
+    "genres": [
+     "武侠"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "蒙语"
+    ],
+    "directors": [
+     "徐克"
+    ],
+    "actors": [
+     "肖战",
+     "庄达菲",
+     "梁家辉",
+     "张文昕",
+     "巴雅尔图",
+     "阿如那"
+    ]
+   }
   },
   "30412658": {
    "id": "30412658",
@@ -6152,7 +6339,37 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924724165.jpg",
    "intro": "2023-08-15(伦敦BFI首映) / 2024-06-14(上海国际电影节) / 2024-09-06(中国大陆) / 2025-09-06(中国大陆重映) / 方励 / 托尼·班纳姆 / 林阿根 / 丹尼斯·莫利 / 威廉·班尼菲尔德 / 中国大陆 / 方励 / 范铭 / 龚莉 / 122分钟 / 纪录片 / 英语 / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "里斯本丸沉没",
+    "original_title": "",
+    "year": 2023,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "122分钟"
+    ],
+    "genres": [
+     "纪录片"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "英语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "方励"
+    ],
+    "actors": [
+     "方励",
+     "托尼·班纳姆",
+     "林阿根",
+     "丹尼斯·莫利",
+     "威廉·班尼菲尔德"
+    ]
+   }
   },
   "34780991": {
    "id": "34780991",
@@ -6162,7 +6379,40 @@
    "comment": "非常好看！！既诙谐搞笑又有深度，剧情推进很快并且很合理，完全无硬伤，根本碾压隔壁的封神2！画面制作精良，很有冲击力，打斗戏份非常精彩！值得一看！满分💯！",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2916323291.jpg",
    "intro": "2025-01-29(中国大陆) / 吕艳婷 / 囧森瑟夫 / 瀚墨 / 陈浩 / 绿绮 / 张珈铭 / 杨卫 / 王德顺 / 雨辰 / 李南 / 中国大陆 / 饺子 / 144分钟 / 剧情 / 喜剧 / 动画 / 奇幻 / 饺子 Yu Yang / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "哪吒之魔童闹海",
+    "original_title": "",
+    "year": 2025,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "144分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "动画",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "饺子"
+    ],
+    "actors": [
+     "吕艳婷",
+     "囧森瑟夫",
+     "瀚墨",
+     "陈浩",
+     "绿绮",
+     "张珈铭"
+    ]
+   }
   },
   "30181250": {
    "id": "30181250",
@@ -6172,7 +6422,40 @@
    "comment": "特效还可以，就是剧情实在太多硬伤了！观影时能感觉到身边的人都很无语 不约而同地忍不住吐槽！枉我一直给身边人推荐封神，第二部真的太令人失望了！看得很生气！第一部和第二部的质量怎么能差这么多！！！！怒其不争啊",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2917559392.jpg",
    "intro": "2025-01-29(中国大陆) / 黄渤 / 于适 / 那尔那茜 / 陈牧驰 / 费翔 / 娜然  / 吴兴国 / 韩鹏翼 / 此沙 / 武亚凡 / 中国大陆 / 乌尔善 / 144分钟 / 动作 / 战争 / 奇幻 / 古装 / 冉平 Ping Ran / 冉甲男 Jia-nan Ran / 乌尔善 Wuershan / 曹升 Sheng Cao / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "封神第二部：战火西岐",
+    "original_title": "",
+    "year": 2025,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "144分钟"
+    ],
+    "genres": [
+     "动作",
+     "战争",
+     "奇幻",
+     "古装"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "乌尔善"
+    ],
+    "actors": [
+     "黄渤",
+     "于适",
+     "那尔那茜",
+     "陈牧驰",
+     "费翔",
+     "娜然"
+    ]
+   }
   },
   "1291548": {
    "id": "1291548",
@@ -6182,7 +6465,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2575465690.jpg",
    "intro": "1989-06-02(多伦多首映) / 1989-06-09(美国) / 罗宾·威廉姆斯 / 罗伯特·肖恩·莱纳德 / 伊桑·霍克 / 乔西·查尔斯 / 盖尔·汉森 / 迪伦·库斯曼 / 阿勒隆·鲁杰罗 / 詹姆斯·沃特斯顿 / 诺曼·劳埃德 / 柯特伍德·史密斯 / 美国 / 彼得·威尔 / 128 分钟 / 死亡诗社 / 剧情 / 汤姆·舒尔曼 Tom Schulman / 英语 / 拉丁语",
-   "orig": "Dead Poets Society"
+   "orig": "Dead Poets Society",
+   "detail": {
+    "title": "死亡诗社",
+    "original_title": "Dead Poets Society",
+    "year": 1989,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "128分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "拉丁语"
+    ],
+    "directors": [
+     "彼得·威尔"
+    ],
+    "actors": [
+     "罗宾·威廉姆斯",
+     "罗伯特·肖恩·莱纳德",
+     "伊桑·霍克",
+     "乔西·查尔斯",
+     "盖尔·汉森",
+     "迪伦·库斯曼"
+    ]
+   }
   },
   "35902857": {
    "id": "35902857",
@@ -6192,7 +6506,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914293980.jpg",
    "intro": "2023-05-25(戛纳电影节) / 2023-12-21(德国) / 2023-12-22(日本) / 2024-11-15(中国大陆) / 役所广司 / 柄本时生 / 中野有纱 / 山田葵  / 麻生祐未 / 石川小百合 / 三浦友和 / 田中泯 / 茂吕师冈 / 县森鱼 / 日本 / 德国 / 维姆·文德斯 / 125分钟 / 完美的日子 / 剧情 / 维姆·文德斯 Wim Wenders / 高崎卓马 Takuma Takasaki / 日语 / 英语",
-   "orig": "Perfect Days"
+   "orig": "Perfect Days",
+   "detail": {
+    "title": "完美的日子",
+    "original_title": "Perfect Days",
+    "year": 2023,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "125分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "日本",
+     "德国"
+    ],
+    "languages": [
+     "日语",
+     "英语"
+    ],
+    "directors": [
+     "维姆·文德斯"
+    ],
+    "actors": [
+     "役所广司",
+     "柄本时生",
+     "中野有纱",
+     "山田葵",
+     "麻生祐未",
+     "石川小百合"
+    ]
+   }
   },
   "33444128": {
    "id": "33444128",
@@ -6202,7 +6548,37 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2758013960.jpg",
    "intro": "2022-01-04(美国) / 米洛·文堤米利亚 / 曼迪·摩尔 / 斯特林·K·布朗 / 克丽丝·梅斯 / 贾斯汀·哈特雷 / 苏珊·卡莉奇·沃森 / 克里斯·沙利文 / 乔·胡尔特拉斯 / 凯特琳·汤普森 / 厄里斯·贝克 / 美国 / 我们这一天 / 48分钟 / 我们这一天 / 剧情 / 喜剧 / 爱情 / 丹·福格尔曼 Dan Fogelman / 英语",
-   "orig": "This Is Us Season 6"
+   "orig": "This Is Us Season 6",
+   "detail": {
+    "title": "我们这一天 第六季",
+    "original_title": "This Is Us Season 6",
+    "year": 2022,
+    "is_tv": true,
+    "episodes": 18,
+    "durations": [
+     "48分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [],
+    "actors": [
+     "米洛·文堤米利亚",
+     "曼迪·摩尔",
+     "斯特林·K·布朗",
+     "克丽丝·梅斯",
+     "贾斯汀·哈特雷",
+     "苏珊·卡莉奇·沃森"
+    ]
+   }
   },
   "33444118": {
    "id": "33444118",
@@ -6212,7 +6588,37 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2622493041.jpg",
    "intro": "2020-10-27(美国) / 米洛·文堤米利亚 / 曼迪·摩尔 / 斯特林·K·布朗 / 克丽丝·梅斯 / 贾斯汀·哈特雷 / 苏珊·卡莉奇·沃森 / 克里斯·沙利文 / 乔·胡尔特拉斯 / 奈尔斯·菲奇 / 洛根·施罗耶 / 美国 / 我们这一天 / 45分钟 / 我们这一天 / 剧情 / 喜剧 / 爱情 / 丹·福格尔曼 Dan Fogelman / 英语",
-   "orig": "This Is Us Season 5"
+   "orig": "This Is Us Season 5",
+   "detail": {
+    "title": "我们这一天 第五季",
+    "original_title": "This Is Us Season 5",
+    "year": 2020,
+    "is_tv": true,
+    "episodes": 16,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [],
+    "actors": [
+     "米洛·文堤米利亚",
+     "曼迪·摩尔",
+     "斯特林·K·布朗",
+     "克丽丝·梅斯",
+     "贾斯汀·哈特雷",
+     "苏珊·卡莉奇·沃森"
+    ]
+   }
   },
   "33444115": {
    "id": "33444115",
@@ -6222,7 +6628,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568383912.jpg",
    "intro": "2019-09-24(美国) / 米洛·文堤米利亚 / 曼迪·摩尔 / 斯特林·K·布朗 / 克丽丝·梅斯 / 贾斯汀·哈特雷 / 苏珊·卡莉奇·沃森 / 克里斯·沙利文 / 厄里斯·贝克 / 费滋·赫尔曼 / 乔·胡尔特拉斯 / 美国 / nbc.com/this-is-us / 肯·奥林 / 克里斯·科赫 / 小乔治·提尔曼 / 罗克珊·道森 / 我们这一天 / 50分钟 / 我们这一天 / 剧情 / 喜剧 / 爱情 / 丹·福格尔曼 Dan Fogelman / 艾萨克·阿普塔克 Isaac Aptaker / 伊丽莎白·伯格 Elizabeth Berger / 英语",
-   "orig": "This Is Us Season 4"
+   "orig": "This Is Us Season 4",
+   "detail": {
+    "title": "我们这一天 第四季",
+    "original_title": "This Is Us Season 4",
+    "year": 2019,
+    "is_tv": true,
+    "episodes": 18,
+    "durations": [
+     "50分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "肯·奥林",
+     "克里斯·科赫",
+     "小乔治·提尔曼"
+    ],
+    "actors": [
+     "米洛·文堤米利亚",
+     "曼迪·摩尔",
+     "斯特林·K·布朗",
+     "克丽丝·梅斯",
+     "贾斯汀·哈特雷",
+     "苏珊·卡莉奇·沃森"
+    ]
+   }
   },
   "26958599": {
    "id": "26958599",
@@ -6232,7 +6672,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2533297798.jpg",
    "intro": "2018-09-25(美国) / 米洛·文堤米利亚 / 曼迪·摩尔 / 斯特林·K·布朗 / 苏珊·卡莉奇·沃森 / 克丽丝·梅斯 / 贾斯汀·哈特雷 / 克里斯·沙利文 / 迈克尔·安格拉诺 / 亚利桑德拉·布莱肯瑞吉 / 洛根·施罗耶 / 美国 / 肯·奥林 / 克里斯·科赫 / 丽贝卡·阿舍 / 罗克珊·道森 / 我们这一天 / 45分钟 / 我们这一天 / 剧情 / 喜剧 / 爱情 / 卡伊·耶贡 Kay Oyegun / 英语",
-   "orig": "This Is Us Season 3"
+   "orig": "This Is Us Season 3",
+   "detail": {
+    "title": "我们这一天 第三季",
+    "original_title": "This Is Us Season 3",
+    "year": 2018,
+    "is_tv": true,
+    "episodes": 18,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "肯·奥林"
+    ],
+    "actors": [
+     "米洛·文堤米利亚",
+     "曼迪·摩尔",
+     "斯特林·K·布朗",
+     "苏珊·卡莉奇·沃森",
+     "克丽丝·梅斯",
+     "贾斯汀·哈特雷"
+    ]
+   }
   },
   "26958597": {
    "id": "26958597",
@@ -6242,7 +6714,41 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2494940865.jpg",
    "intro": "2017-09-26(美国) / 斯特林·K·布朗 / 曼迪·摩尔 / 克丽丝·梅斯 / 贾斯汀·哈特雷 / 苏珊·卡莉奇·沃森 / 米洛·文堤米利亚 / 克里斯·沙利文 / 亚利桑德拉·布莱肯瑞吉 / 乔·胡尔特拉斯 / 西尔维斯特·史泰龙 / 美国 / 肯·奥林 / 约翰·福滕贝里 / 格伦·费卡拉 / 约翰·里夸 / 雷吉娜·金 / 姿娜·富恩特斯 / 乌塔·布里泽维茨 / 乔安娜·科恩斯 / 丽贝卡·阿舍 / 克里斯·科赫 / 我们这一天 / 45分钟 / 我们这一天 / 剧情 / 家庭 / 丹·福格尔曼 Dan Fogelman / 贝卡·布伦斯特 Bekah Brunstetter / 艾萨克·阿普塔克 Isaac Aptaker / 伊丽莎白·伯格 Elizabeth Berger / 薇拉·赫伯特 Vera Herbert / Tyler Bensinger / 唐·罗斯 Don Roos / 卡伊·耶贡 Kay Oyegun / K.J.斯坦伯格 K.J. Steinberg / 舒卡里·蒂曼 Shukree Tilghman / 丽贝卡·布鲁斯特 Rebecca Brunstetter / 劳拉·肯纳 Laura Kenar / 英语",
-   "orig": "This Is Us Season 2"
+   "orig": "This Is Us Season 2",
+   "detail": {
+    "title": "我们这一天 第二季",
+    "original_title": "This Is Us Season 2",
+    "year": 2017,
+    "is_tv": true,
+    "episodes": 18,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "剧情",
+     "家庭"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "肯·奥林",
+     "约翰·福滕贝里",
+     "格伦·费卡拉",
+     "约翰·里夸"
+    ],
+    "actors": [
+     "斯特林·K·布朗",
+     "曼迪·摩尔",
+     "克丽丝·梅斯",
+     "贾斯汀·哈特雷",
+     "苏珊·卡莉奇·沃森",
+     "米洛·文堤米利亚"
+    ]
+   }
   },
   "26794215": {
    "id": "26794215",
@@ -6252,7 +6758,41 @@
    "comment": "心目中最好的剧。在最恰当的时间看到，也是一种幸运。",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2380810795.jpg",
    "intro": "2016-09-20(美国) / 曼迪·摩尔 / 米洛·文堤米利亚 / 贾斯汀·哈特雷 / 克丽丝·梅斯 / 斯特林·K·布朗 / 克里斯·沙利文 / 艾伦·锡克 / 乔·胡尔特拉斯 / 杰拉尔德·麦克雷尼 / 凯蒂·萨加尔 / 美国 / www.nbc.com/this-is-us / 约翰·里夸 / 格伦·费卡拉 / 肯·奥林 / 小乔治·提尔曼 / 克雷格·齐斯克 / 西拉斯·霍华德 / 莎拉·皮亚·安德森 / 乌塔·布里泽维茨 / 海伦·亨特 / 蒂莫西·布斯菲尔德 / 我们这一天 / 45分钟 / 我们这一天 / 剧情 / 家庭 / 丹·福格尔曼 Dan Fogelman / 唐纳德·托德 Donald Todd / 乔·劳森 Joe Lawson / 贝卡·布伦斯特 Bekah Brunstetter / K.J.斯坦伯格 K.J. Steinberg / 艾萨克·阿普塔克 Isaac Aptaker / 伊丽莎白·伯格 Elizabeth Berger / 薇拉·赫伯特 Vera Herbert / 奥伦·斯奎尔 Aurin Squire / 劳拉·肯纳 Laura Kenar / 卡伊·耶贡 Kay Oyegun / 英语",
-   "orig": "This Is Us Season 1"
+   "orig": "This Is Us Season 1",
+   "detail": {
+    "title": "我们这一天 第一季",
+    "original_title": "This Is Us Season 1",
+    "year": 2016,
+    "is_tv": true,
+    "episodes": 18,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "剧情",
+     "家庭"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "约翰·里夸",
+     "格伦·费卡拉",
+     "肯·奥林",
+     "小乔治·提尔曼"
+    ],
+    "actors": [
+     "曼迪·摩尔",
+     "米洛·文堤米利亚",
+     "贾斯汀·哈特雷",
+     "克丽丝·梅斯",
+     "斯特林·K·布朗",
+     "克里斯·沙利文"
+    ]
+   }
   },
   "26302614": {
    "id": "26302614",
@@ -6262,7 +6802,39 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2272563445.jpg",
    "intro": "2015-11-06(韩国) / 成东日 / 李一花 / 罗美兰 / 金成畇 / 崔武成 / 金善映 / 柳惠英 / 李惠利 / 柳俊烈 / 高庚杓 / 韩国 / program.interest.me/tvn/reply1988 / 申元浩 / 刘学灿 / 90分钟 / 请回答1988 / 剧情 / 喜剧 / 爱情 / 李有静 Woo-Jeong Lee / 韩语",
-   "orig": "응답하라 1988"
+   "orig": "응답하라 1988",
+   "detail": {
+    "title": "请回答1988",
+    "original_title": "응답하라 1988",
+    "year": 2015,
+    "is_tv": true,
+    "episodes": 20,
+    "durations": [
+     "90分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "韩国"
+    ],
+    "languages": [
+     "韩语"
+    ],
+    "directors": [
+     "申元浩"
+    ],
+    "actors": [
+     "成东日",
+     "李一花",
+     "罗美兰",
+     "金成畇",
+     "崔武成",
+     "金善映"
+    ]
+   }
   },
   "36653918": {
    "id": "36653918",
@@ -7116,7 +7688,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2520331478.jpg",
    "intro": "2018-05-18(中国大陆) / 雷佳音 / 佟丽娅 / 张衣 / 于和伟 / 王正佳 / 陶虹 / 李念 / 李光洁 / 杨玏 / 范明 / 中国大陆 / 苏伦 / 101分钟 / 喜剧 / 爱情 / 奇幻 / 苏伦 Lun Su / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "超时空同居",
+    "original_title": "",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "101分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "苏伦"
+    ],
+    "actors": [
+     "雷佳音",
+     "佟丽娅",
+     "张衣",
+     "于和伟",
+     "王正佳",
+     "陶虹"
+    ]
+   }
   },
   "1291990": {
    "id": "1291990",
@@ -7126,7 +7730,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2191788134.jpg",
    "intro": "2004-02-10(柏林电影节) / 2004-07-30(美国) / 伊桑·霍克 / 朱莉·德尔佩 / 弗农·多布切夫 / 路易丝·勒莫瓦纳·托雷斯 / 罗多尔·保利 / 玛丽安·普莱施泰格 / 迪亚博洛 / 丹尼·弗拉 / 艾伯特·德尔佩 / 玛丽·佩里 / 美国 / 法国 / 理查德·林克莱特 / 80 分钟 / 爱在日落黄昏时 / 剧情 / 爱情 / 理查德·林克莱特 Richard Linklater / 朱莉·德尔佩 Julie Delpy / 伊桑·霍克 Ethan Hawke / 金·克里桑 Kim Krizan / 英语 / 法语",
-   "orig": "Before Sunset"
+   "orig": "Before Sunset",
+   "detail": {
+    "title": "爱在日落黄昏时",
+    "original_title": "Before Sunset",
+    "year": 2004,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "80分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情"
+    ],
+    "countries": [
+     "美国",
+     "法国"
+    ],
+    "languages": [
+     "英语",
+     "法语"
+    ],
+    "directors": [
+     "理查德·林克莱特"
+    ],
+    "actors": [
+     "伊桑·霍克",
+     "朱莉·德尔佩",
+     "弗农·多布切夫",
+     "路易丝·勒莫瓦纳·托雷斯",
+     "罗多尔·保利",
+     "玛丽安·普莱施泰格"
+    ]
+   }
   },
   "25717233": {
    "id": "25717233",
@@ -7136,7 +7773,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2221061003.jpg",
    "intro": "2014-09-06(多伦多电影节) / 2014-09-30(中国大陆) / 黄渤 / 徐峥 / 袁泉 / 周冬雨 / 陶慧 / 岳小军 / 沈腾 / 张俪 / 马苏 / 刘美含 / 中国大陆 / 宁浩 / 118分钟 / 喜剧 / 爱情 / 岳小军 Xiaojun Yue / 邢爱娜 Aina Xing / 孙小杭 Xiaohang Sun / 董润年 Runnian Dong / 章迪沙 Disha Zhang / 张艺凡 Yifan Zhang / 汉语普通话 / 粤语 / 云南方言",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "心花路放",
+    "original_title": "",
+    "year": 2014,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "118分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "粤语",
+     "云南方言"
+    ],
+    "directors": [
+     "宁浩"
+    ],
+    "actors": [
+     "黄渤",
+     "徐峥",
+     "袁泉",
+     "周冬雨",
+     "陶慧",
+     "岳小军"
+    ]
+   }
   },
   "10777687": {
    "id": "10777687",
@@ -7146,7 +7816,39 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1816276065.jpg",
    "intro": "2013-01-23(韩国) / 柳承龙 / 朴信惠 / 郑镇荣 / 金正泰 / 吴达洙 / 朴元尚 / 郑满植 / 葛素媛 / 郑涵妃 / 赵在允 / 韩国 / www.7gift.kr / 李焕京 / 127分钟 / 7号房的礼物 / 剧情 / 喜剧 / 家庭 / 李焕庆 Hwan-kyeong Lee / 刘英雅 Yeong-ah Yoo / 韩语",
-   "orig": "7번방의 선물"
+   "orig": "7번방의 선물",
+   "detail": {
+    "title": "7号房的礼物",
+    "original_title": "7번방의 선물",
+    "year": 2013,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "127分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "家庭"
+    ],
+    "countries": [
+     "韩国"
+    ],
+    "languages": [
+     "韩语"
+    ],
+    "directors": [
+     "李焕京"
+    ],
+    "actors": [
+     "柳承龙",
+     "朴信惠",
+     "郑镇荣",
+     "金正泰",
+     "吴达洙",
+     "朴元尚"
+    ]
+   }
   },
   "1292274": {
    "id": "1292274",
@@ -7156,7 +7858,45 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg",
    "intro": "2004-06-18(美国) / 2005-01-14(中国大陆) / 汤姆·汉克斯 / 凯瑟琳·泽塔-琼斯 / 斯坦利·图齐 / 齐·麦克布赖德 / 迭戈·卢纳 / 巴里·沙巴卡·亨利 / 库玛·帕拉纳 / 佐伊·索尔达娜 / 埃迪·琼斯 / 祖德·塞克利拉 / 美国 / 史蒂文·斯皮尔伯格 / 128分钟 / 幸福终点站 / 喜剧 / 剧情 / 爱情 / 安德鲁·尼科尔 Andrew Niccol / 萨沙·杰瓦西  Sacha Gervasi / 杰夫·内桑森 Jeff Nathanson / 英语 / 保加利亚语 / 西班牙语 / 俄语 / 汉语普通话 / 德语 / 法语",
-   "orig": "The Terminal"
+   "orig": "The Terminal",
+   "detail": {
+    "title": "幸福终点站",
+    "original_title": "The Terminal",
+    "year": 2004,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "128分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "保加利亚语",
+     "西班牙语",
+     "俄语",
+     "汉语普通话",
+     "德语",
+     "法语"
+    ],
+    "directors": [
+     "史蒂文·斯皮尔伯格"
+    ],
+    "actors": [
+     "汤姆·汉克斯",
+     "凯瑟琳·泽塔-琼斯",
+     "斯坦利·图齐",
+     "齐·麦克布赖德",
+     "迭戈·卢纳",
+     "巴里·沙巴卡·亨利"
+    ]
+   }
   },
   "5045678": {
    "id": "5045678",
@@ -7166,7 +7906,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932950007.jpg",
    "intro": "2016-07-08(中国大陆) / 2026-06-19(中国大陆重映) / 季冠霖 / 苏尚卿 / 许魏洲 / 金士杰 / 杨婷 / 潘淑兰 / 九儿 / 王德顺 / 张媛媛 / 薛立方 / 中国大陆 / www.xxbt.com / 梁旋 / 张春 / Li Wei / 105分钟 / 剧情 / 动画 / 奇幻 / 梁旋 Xuan Liang / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "大鱼海棠",
+    "original_title": "",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "105分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动画",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "梁旋",
+     "张春"
+    ],
+    "actors": [
+     "季冠霖",
+     "苏尚卿",
+     "许魏洲",
+     "金士杰",
+     "杨婷",
+     "潘淑兰"
+    ]
+   }
   },
   "1783457": {
    "id": "1783457",
@@ -7176,7 +7949,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1597238857.jpg",
    "intro": "2008-05-15(戛纳电影节) / 2008-06-06(美国) / 2008-06-20(中国大陆) / 杰克·布莱克 / 达斯汀·霍夫曼 / 安吉丽娜·朱莉 / 伊恩·麦柯肖恩 / 成龙 / 塞斯·罗根 / 刘玉玲 / 大卫·克罗斯 / 兰德尔·杜克·金 / 吴汉章 / 美国 / www.kungfupanda.com / 马克·奥斯本 / 约翰·斯蒂文森 / 92分钟 / 功夫熊猫 / 喜剧 / 动作 / 动画 / 冒险 / 乔纳森·阿贝尔 Jonathan Aibel / 格伦·伯杰 Glenn Berger / 伊森·瑞弗 Ethan Reiff / 塞卢斯·沃瑞斯 Cyrus Voris / 英语",
-   "orig": "Kung Fu Panda"
+   "orig": "Kung Fu Panda",
+   "detail": {
+    "title": "功夫熊猫",
+    "original_title": "Kung Fu Panda",
+    "year": 2008,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "92分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动作",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "马克·奥斯本",
+     "约翰·斯蒂文森"
+    ],
+    "actors": [
+     "杰克·布莱克",
+     "达斯汀·霍夫曼",
+     "安吉丽娜·朱莉",
+     "伊恩·麦柯肖恩",
+     "成龙",
+     "塞斯·罗根"
+    ]
+   }
   },
   "3001114": {
    "id": "3001114",
@@ -7186,7 +7993,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2937402702.jpg",
    "intro": "2021-09-03(威尼斯电影节) / 2021-10-22(美国/中国大陆) / 2024-03-01(中国大陆重映) / 2026-11-27(中国大陆重映) / 提莫西·查拉梅 / 丽贝卡·弗格森 / 奥斯卡·伊萨克 / 戴夫·巴蒂斯塔 / 赞达亚 / 杰森·莫玛 / 乔什·布洛林 / 哈维尔·巴登 / 斯特兰·斯卡斯加德 / 夏洛特·兰普林 / 美国 / www.dunemovie.net / 丹尼斯·维伦纽瓦 / 156分钟 / 沙丘 / 剧情 / 科幻 / 冒险 / 丹尼斯·维伦纽瓦 Denis Villeneuve / 乔·斯派茨 Jon Spaihts / 艾瑞克·罗斯 Eric Roth / 弗兰克·赫伯特 Frank Herbert / 英语 / 汉语普通话",
-   "orig": "Dune"
+   "orig": "Dune",
+   "detail": {
+    "title": "沙丘",
+    "original_title": "Dune",
+    "year": 2021,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "156分钟"
+    ],
+    "genres": [
+     "剧情",
+     "科幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "丹尼斯·维伦纽瓦"
+    ],
+    "actors": [
+     "提莫西·查拉梅",
+     "丽贝卡·弗格森",
+     "奥斯卡·伊萨克",
+     "戴夫·巴蒂斯塔",
+     "赞达亚",
+     "杰森·莫玛"
+    ]
+   }
   },
   "1432146": {
    "id": "1432146",
@@ -7196,7 +8036,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2196695849.jpg",
    "intro": "2008-04-14(悉尼首映) / 2008-04-30(中国大陆) / 2008-05-02(美国) / 小罗伯特·唐尼 / 格温妮斯·帕特洛 / 泰伦斯·霍华德 / 杰夫·布里吉斯 / 莱丝莉·比伯 / 肖恩·托布 / 保罗·贝坦尼 / 乔恩·费儒 / 克拉克·格雷格 / 塞缪尔·杰克逊 / 美国 / 乔恩·费儒 / 126分钟 / 钢铁侠 / 动作 / 冒险 / 科幻 / 惊悚 / 马克·弗格斯 Mark Fergus / 霍克·奥斯比 Hawk Ostby / 阿特·马库姆 Art Marcum / 马特·霍洛维 Matt Holloway / 英语 / 波斯语 / 乌尔都语 / 阿拉伯语",
-   "orig": "Iron Man"
+   "orig": "Iron Man",
+   "detail": {
+    "title": "钢铁侠",
+    "original_title": "Iron Man",
+    "year": 2008,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "126分钟"
+    ],
+    "genres": [
+     "动作",
+     "科幻",
+     "惊悚",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "波斯语",
+     "乌尔都语",
+     "阿拉伯语"
+    ],
+    "directors": [
+     "乔恩·费儒"
+    ],
+    "actors": [
+     "小罗伯特·唐尼",
+     "格温妮斯·帕特洛",
+     "泰伦斯·霍华德",
+     "杰夫·布里吉斯",
+     "莱丝莉·比伯",
+     "肖恩·托布"
+    ]
+   }
   },
   "10533913": {
    "id": "10533913",
@@ -7206,7 +8082,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2874927470.jpg",
    "intro": "2015-05-18(戛纳电影节) / 2015-06-19(美国) / 2015-10-06(中国大陆) / 艾米·波勒 / 菲利丝·史密斯 / 理查德·坎德 / 比尔·哈德尔 / 刘易斯·布莱克 / 敏迪·卡灵 / 凯特林·迪亚斯 / 戴安·琳恩 / 凯尔·麦克拉克伦 / 波拉·庞德斯通 / 美国 / movies.disney.com/inside-out/ / 彼特·道格特 / 罗纳尔多·德尔·卡门 / 95分钟 / 头脑特工队 / 喜剧 / 动画 / 冒险 / 彼特·道格特 Pete Docter / 罗纳尔多·德尔·卡门 Ronaldo Del Carmen / Meg LeFauve / 乔什·库雷 Josh Cooley / 迈克尔·阿恩特 Michael Arndt / 西蒙·里奇 Simon Rich / 鲍勃·彼德森 Bob Peterson / 比尔·哈德尔 Bill Hader / 艾米·波勒 Amy Poehler / 英语",
-   "orig": "Inside Out"
+   "orig": "Inside Out",
+   "detail": {
+    "title": "头脑特工队",
+    "original_title": "Inside Out",
+    "year": 2015,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "95分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "彼特·道格特",
+     "罗纳尔多·德尔·卡门"
+    ],
+    "actors": [
+     "艾米·波勒",
+     "菲利丝·史密斯",
+     "理查德·坎德",
+     "比尔·哈德尔",
+     "刘易斯·布莱克",
+     "敏迪·卡灵"
+    ]
+   }
   },
   "4873490": {
    "id": "4873490",
@@ -7216,7 +8125,38 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1252876266.jpg",
    "intro": "2011-11-08(中国大陆) / 白百何 / 文章 / 张嘉益 / 王耀庆 / 张子萱 / 郭京飞 / 曹翠芬 / 魏宗万 / 海清 / 廖凡 / 中国大陆 / 滕华涛 / 110分钟 / 144分钟(加长版) / 剧情 / 爱情 / 鲍鲸鲸 Jingjing Bao / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "失恋33天",
+    "original_title": "",
+    "year": 2011,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "110分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "滕华涛"
+    ],
+    "actors": [
+     "白百何",
+     "文章",
+     "张嘉益",
+     "王耀庆",
+     "张子萱",
+     "郭京飞"
+    ]
+   }
   },
   "25907124": {
    "id": "25907124",
@@ -7226,7 +8166,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2621219978.jpg",
    "intro": "2020-10-01(中国大陆) / 郑希 / 杨凝 / 图特哈蒙 / 阎么么 / 季冠霖 / 姜广涛 / 陈思宇 / 山新 / 刘明月 / 佟心竹 / 中国大陆 / 程腾 / 李炜 / 李夏 / 王昕 / Li Wei / 110分钟 / 剧情 / 动画 / 奇幻 / 谢茜颖 Qianying Xie / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "姜子牙",
+    "original_title": "",
+    "year": 2020,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "110分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动画",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "程腾",
+     "李炜"
+    ],
+    "actors": [
+     "郑希",
+     "杨凝",
+     "图特哈蒙",
+     "阎么么",
+     "季冠霖",
+     "姜广涛"
+    ]
+   }
   },
   "26374197": {
    "id": "26374197",
@@ -7236,7 +8209,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2535851348.jpg",
    "intro": "2018-12-14(美国) / 2018-12-21(中国大陆) / 沙梅克·摩尔 / 杰克·约翰逊 / 海莉·斯坦菲尔德 / 马赫沙拉·阿里 / 布莱恩·泰里·亨利 / 莉莉·汤姆林 / 劳伦·维勒斯 / 佐伊·克罗维兹 / 约翰·木兰尼 / 贵美子·格伦 / 美国 / 鲍勃·佩尔西凯蒂 / 彼得·拉姆齐 / 罗德尼·罗斯曼 / 116分钟(中国大陆) / 117分钟(美国) / 143分钟(加长版) / 蜘蛛侠：平行宇宙 / 动作 / 科幻 / 动画 / 冒险 / 菲尔·罗德 Phil Lord / 罗德尼·罗斯曼 Rodney Rothman / 布莱恩·本迪斯 Brian Bendis / 萨拉·皮凯利 Sara Pichelli / 史蒂夫·迪特寇 Steve Ditko / 斯坦·李 Stan Lee / David Hine / Fabrice Sapolsky / 英语 / 西班牙语",
-   "orig": "Spider-Man: Into the Spider-Verse"
+   "orig": "Spider-Man: Into the Spider-Verse",
+   "detail": {
+    "title": "蜘蛛侠：平行宇宙",
+    "original_title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "116分钟"
+    ],
+    "genres": [
+     "动作",
+     "科幻",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "西班牙语"
+    ],
+    "directors": [
+     "鲍勃·佩尔西凯蒂",
+     "彼得·拉姆齐",
+     "罗德尼·罗斯曼"
+    ],
+    "actors": [
+     "沙梅克·摩尔",
+     "杰克·约翰逊",
+     "海莉·斯坦菲尔德",
+     "马赫沙拉·阿里",
+     "布莱恩·泰里·亨利",
+     "莉莉·汤姆林"
+    ]
+   }
   },
   "26366465": {
    "id": "26366465",
@@ -7246,7 +8255,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2285115802.jpg",
    "intro": "2015-08-15(中国台湾) / 2015-11-19(中国大陆) / 宋芸桦 / 王大陆 / 李玉玺 / 简廷芮 / 刘德华 / 陈乔恩 / 言承旭 / 曲家瑞 / 屈中恒 / 钟欣凌 / 中国台湾 / 陈玉珊 / 134分钟 / 我的少女时代 / 喜剧 / 爱情 / 曾咏婷 Yung-Ting Tseng / 汉语普通话",
-   "orig": "我的少女時代"
+   "orig": "我的少女時代",
+   "detail": {
+    "title": "我的少女时代",
+    "original_title": "我的少女時代",
+    "year": 2015,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "134分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "中国台湾"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "陈玉珊"
+    ],
+    "actors": [
+     "宋芸桦",
+     "王大陆",
+     "李玉玺",
+     "简廷芮",
+     "刘德华",
+     "陈乔恩"
+    ]
+   }
   },
   "1309055": {
    "id": "1309055",
@@ -7256,7 +8296,41 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456904.jpg",
    "intro": "2005-11-06(英国) / 2005-11-18(中国大陆) / 2024-11-01(中国大陆重映) / 丹尼尔·雷德克里夫 / 艾玛·沃森 / 鲁伯特·格林特 / 迈克尔·刚本 / 玛吉·史密斯 / 汤姆·费尔顿 / 蒂莫西·斯波 / 罗伯特·帕丁森 / 梁佩诗 / 大卫·田纳特 / 英国 / 美国 / www.harrypotter.co.uk / 迈克·内威尔 / 157分钟 / 哈利·波特与火焰杯 / 悬疑 / 奇幻 / 冒险 / 史蒂夫·克洛夫斯 Steve Kloves / J·K·罗琳 J.K. Rowling / 英语 / 法语",
-   "orig": "Harry Potter and the Goblet of Fire"
+   "orig": "Harry Potter and the Goblet of Fire",
+   "detail": {
+    "title": "哈利·波特与火焰杯",
+    "original_title": "Harry Potter and the Goblet of Fire",
+    "year": 2005,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "157分钟"
+    ],
+    "genres": [
+     "悬疑",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "英国",
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "法语"
+    ],
+    "directors": [
+     "迈克·内威尔"
+    ],
+    "actors": [
+     "丹尼尔·雷德克里夫",
+     "艾玛·沃森",
+     "鲁伯特·格林特",
+     "迈克尔·刚本",
+     "玛吉·史密斯",
+     "汤姆·费尔顿"
+    ]
+   }
   },
   "4237879": {
    "id": "4237879",
@@ -7266,7 +8340,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p500548437.jpg",
    "intro": "2010-06-04(中国大陆) / 徐峥 / 王宝强 / 李曼 / 李小璐 / 左小青 / 张歆艺 / 黄小蕾 / 马健 / 邱林 / 张超 / 中国大陆 / 叶伟民 / 91分钟 / 喜剧 / 田羽生 Yusheng Tian / 史晨赟 Chenbin Shi / 徐元丰 Yuanfeng Xu / 汉语普通话 / 武汉话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "人在囧途",
+    "original_title": "",
+    "year": 2010,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "91分钟"
+    ],
+    "genres": [
+     "喜剧"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "武汉话"
+    ],
+    "directors": [
+     "叶伟民"
+    ],
+    "actors": [
+     "徐峥",
+     "王宝强",
+     "李曼",
+     "李小璐",
+     "左小青",
+     "张歆艺"
+    ]
+   }
   },
   "1297518": {
    "id": "1297518",
@@ -7276,7 +8381,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p648370300.jpg",
    "intro": "1994-03-31(中国香港) / 周星驰 / 吴孟达 / 张敏 / 徐锦江 / 钟丽缇 / 蔡少芬 / 吴启华 / 邹兆龙 / 梁荣忠 / 黄一飞 / 中国香港 / 王晶 / 108分钟 / 剧情 / 喜剧 / 古装 / [佚名] / 王晶 Jing Wong / 粤语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "九品芝麻官",
+    "original_title": "",
+    "year": 1994,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "108分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "古装"
+    ],
+    "countries": [
+     "中国香港"
+    ],
+    "languages": [
+     "粤语"
+    ],
+    "directors": [
+     "王晶"
+    ],
+    "actors": [
+     "周星驰",
+     "吴孟达",
+     "张敏",
+     "徐锦江",
+     "钟丽缇",
+     "蔡少芬"
+    ]
+   }
   },
   "25827935": {
    "id": "25827935",
@@ -7286,7 +8423,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2378140502.jpg",
    "intro": "2016-09-14(中国大陆) / 2016-10-27(中国香港) / 周冬雨 / 马思纯 / 李程彬 / 李萍 / 蔡纲 / 蒙亭宜 / 沙全泽 / 姚欣言 / 李昊芳 / 蒋亭轩 / 中国大陆 / 中国香港 / 曾国祥 / 109分钟 / 剧情 / 爱情 / 林咏琛 Lam Wing Sum / 李媛 Yuan Li / 许伊萌 Yimeng Xu / 吴楠 Nan Wu / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "七月与安生",
+    "original_title": "",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "109分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "曾国祥"
+    ],
+    "actors": [
+     "周冬雨",
+     "马思纯",
+     "李程彬",
+     "李萍",
+     "蔡纲",
+     "蒙亭宜"
+    ]
+   }
   },
   "35376457": {
    "id": "35376457",
@@ -7296,7 +8465,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914207920.jpg",
    "intro": "2021-12-24(中国大陆) / 2024-11-02(中国大陆重映) / 徐峥 / 马伊琍 / 吴越 / 倪虹洁 / 周野芒 / 黄明昊 / 王影璐 / 宁理 / 张芝华 / 吴冕 / 中国大陆 / 邵艺辉 / 112分钟 / 剧情 / 喜剧 / 爱情 / 邵艺辉 Yihui Shao / 汉语普通话 / 沪语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "爱情神话",
+    "original_title": "",
+    "year": 2021,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "112分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "沪语"
+    ],
+    "directors": [
+     "邵艺辉"
+    ],
+    "actors": [
+     "徐峥",
+     "马伊琍",
+     "吴越",
+     "倪虹洁",
+     "周野芒",
+     "黄明昊"
+    ]
+   }
   },
   "11529526": {
    "id": "11529526",
@@ -7306,7 +8508,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1959304567.jpg",
    "intro": "2013-05-17(中国大陆) / 2013-05-30(中国香港) / 黄晓明 / 邓超 / 佟大为 / 杜鹃 / 王真儿 / 乔治·安东 / 张籽沐 / 雷昊汶 / 佟磊 / 刘天佐 / 中国大陆 / 中国香港 / 陈可辛 / 112分钟 / 剧情 / 周智勇 Zhiyong Zhou / 张冀 Ji Zhang / 林爱华 Oi Wah Lam / 英语 / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "中国合伙人",
+    "original_title": "",
+    "year": 2013,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "112分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "英语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "陈可辛"
+    ],
+    "actors": [
+     "黄晓明",
+     "邓超",
+     "佟大为",
+     "杜鹃",
+     "王真儿",
+     "乔治·安东"
+    ]
+   }
   },
   "35051512": {
    "id": "35051512",
@@ -7316,7 +8550,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2620453443.jpg",
    "intro": "2020-10-01(中国大陆) / 葛优 / 黄渤 / 范伟 / 邓超 / 沈腾 / 张占义 / 王宝强 / 徐峥 / 闫妮 / 马丽 / 中国大陆 / 宁浩 / 徐峥 / 陈思诚 / 闫非 / 彭大魔 / 邓超 / 俞白眉 / 153分钟 / 剧情 / 喜剧 / 刘吾驷 Wusi Liu / 王昂 Ang Wang / 何玥妮 / 俞白眉 Baimei Yu / 邢文雄 Wenxiong Xing / 何可可 Keke He / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "我和我的家乡",
+    "original_title": "",
+    "year": 2020,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "153分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "宁浩",
+     "徐峥",
+     "陈思诚",
+     "闫非"
+    ],
+    "actors": [
+     "葛优",
+     "黄渤",
+     "范伟",
+     "邓超",
+     "沈腾",
+     "张占义"
+    ]
+   }
   },
   "1296339": {
    "id": "1296339",
@@ -7326,7 +8594,42 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2555762374.jpg",
    "intro": "1995-01-27(美国) / 伊桑·霍克 / 朱莉·德尔佩 / 安德莉亚·埃克特 / 汉诺·波西尔 / 卡尔·布拉克施魏格尔 / 特克斯·鲁比诺威茨 / 埃尔尼·曼戈尔德 / 多米尼克·卡斯特尔 / 海蒙·玛丽亚·巴汀格 / 哈拉尔德·魏格莱因 / 美国 / 奥地利 / 瑞士 / 理查德·林克莱特 / 101分钟 / 爱在黎明破晓前 / 剧情 / 爱情 / 理查德·林克莱特 Richard Linklater / 金·克里桑 Kim Krizan / 英语 / 德语 / 法语",
-   "orig": "Before Sunrise"
+   "orig": "Before Sunrise",
+   "detail": {
+    "title": "爱在黎明破晓前",
+    "original_title": "Before Sunrise",
+    "year": 1995,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "101分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情"
+    ],
+    "countries": [
+     "美国",
+     "奥地利",
+     "瑞士"
+    ],
+    "languages": [
+     "英语",
+     "德语",
+     "法语"
+    ],
+    "directors": [
+     "理查德·林克莱特"
+    ],
+    "actors": [
+     "伊桑·霍克",
+     "朱莉·德尔佩",
+     "安德莉亚·埃克特",
+     "汉诺·波西尔",
+     "卡尔·布拉克施魏格尔",
+     "特克斯·鲁比诺威茨"
+    ]
+   }
   },
   "1291579": {
    "id": "1291579",
@@ -7336,7 +8639,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2513247938.jpg",
    "intro": "2001-11-02(美国) / 2012-12-19(美国) / 约翰·古德曼 / 比利·克里斯托 / 玛丽·吉布斯 / 史蒂夫·布西密 / 詹姆斯·柯本 / 詹妮弗·提莉 / 鲍勃·彼德森 / 约翰·拉森贝格 / 弗兰克·奥兹 / 丹尼尔·吉尔森 / 美国 / www.monstersinc.com / 彼特·道格特 / 大卫·西尔弗曼 / 李·昂克里奇 / 92分钟 / 怪兽电力公司 / 儿童 / 喜剧 / 动画 / 奇幻 / 冒险 / 安德鲁·斯坦顿 Andrew Stanton / Daniel Gerson / Robert L. Baird / 略特·里斯 Rhett Reese / Jonathan Roberts / 彼特·道格特 Pete Docter / 杰夫·皮金  Jeff Pidgeon / 吉尔·卡尔顿 Jill Culton / 拉夫·埃格尔斯顿 Ralph Eggleston / 英语",
-   "orig": "Monsters, Inc."
+   "orig": "Monsters, Inc.",
+   "detail": {
+    "title": "怪兽电力公司",
+    "original_title": "Monsters, Inc.",
+    "year": 2001,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "92分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动画",
+     "儿童",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "彼特·道格特",
+     "大卫·西尔弗曼",
+     "李·昂克里奇"
+    ],
+    "actors": [
+     "约翰·古德曼",
+     "比利·克里斯托",
+     "玛丽·吉布斯",
+     "史蒂夫·布西密",
+     "詹姆斯·柯本",
+     "詹妮弗·提莉"
+    ]
+   }
   },
   "1866479": {
    "id": "1866479",
@@ -7346,7 +8685,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1469137689.jpg",
    "intro": "2012-05-04(美国) / 2012-05-05(中国大陆) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 斯嘉丽·约翰逊 / 杰瑞米·雷纳 / 马克·鲁法洛 / 塞缪尔·杰克逊 / 汤姆·希德勒斯顿 / 斯特兰·斯卡斯加德 / 寇碧·史莫德斯 / 美国 / avengers.marvel.com / 乔斯·韦登 / 143分钟 / 复仇者联盟 / 动作 / 科幻 / 奇幻 / 冒险 / 乔斯·韦登 Joss Whedon / 扎克·佩恩 Zak Penn / 英语 / 俄语",
-   "orig": "The Avengers"
+   "orig": "The Avengers",
+   "detail": {
+    "title": "复仇者联盟",
+    "original_title": "The Avengers",
+    "year": 2012,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "143分钟"
+    ],
+    "genres": [
+     "动作",
+     "科幻",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "俄语"
+    ],
+    "directors": [
+     "乔斯·韦登"
+    ],
+    "actors": [
+     "小罗伯特·唐尼",
+     "克里斯·埃文斯",
+     "克里斯·海姆斯沃斯",
+     "斯嘉丽·约翰逊",
+     "杰瑞米·雷纳",
+     "马克·鲁法洛"
+    ]
+   }
   },
   "21937452": {
    "id": "21937452",
@@ -7356,7 +8729,37 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2118532944.jpg",
    "intro": "2013-10-02(韩国) / 薛景求 / 严志媛 / 李来 / 金海淑 / 金相镐 / 罗美兰 / 杨真诚 / 权泰元 / 赵福来 / 徐现宇 / 韩国 / 李濬益 / 122分钟 / 素媛 / 剧情 / 金智慧 Ji-hye Kim / 赵重勋 Joong-Hoon Jo / 金成旭 Seong-wook Kim / 韩语",
-   "orig": "소원"
+   "orig": "소원",
+   "detail": {
+    "title": "素媛",
+    "original_title": "소원",
+    "year": 2013,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "122分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "韩国"
+    ],
+    "languages": [
+     "韩语"
+    ],
+    "directors": [
+     "李濬益"
+    ],
+    "actors": [
+     "薛景求",
+     "严志媛",
+     "李来",
+     "金海淑",
+     "金相镐",
+     "罗美兰"
+    ]
+   }
   },
   "4202982": {
    "id": "4202982",
@@ -7366,7 +8769,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2151245053.jpg",
    "intro": "2013-11-27(美国) / 2014-02-05(中国大陆) / 克里斯汀·贝尔 / 伊迪娜·门泽尔 / 乔纳森·格罗夫 / 乔什·加德 / 圣蒂诺·方塔纳 / 艾伦·图代克 / 塞伦·希德 / 克里斯·威廉姆斯 / 斯蒂芬·安德森 / 玛雅·威尔逊 / 美国 / movies.disney.com/frozen/ / 克里斯·巴克 / 珍妮弗·李 / 102分钟 / 冰雪奇缘 / 喜剧 / 动画 / 奇幻 / 歌舞 / 珍妮弗·李 Jennifer Lee / 克里斯·巴克 Chris Buck / 夏恩·莫里斯 Shane Morris / 英语 / 冰岛语",
-   "orig": "Frozen"
+   "orig": "Frozen",
+   "detail": {
+    "title": "冰雪奇缘",
+    "original_title": "Frozen",
+    "year": 2013,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "102分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动画",
+     "歌舞",
+     "奇幻"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "冰岛语"
+    ],
+    "directors": [
+     "克里斯·巴克",
+     "珍妮弗·李"
+    ],
+    "actors": [
+     "克里斯汀·贝尔",
+     "伊迪娜·门泽尔",
+     "乔纳森·格罗夫",
+     "乔什·加德",
+     "圣蒂诺·方塔纳",
+     "艾伦·图代克"
+    ]
+   }
   },
   "25986662": {
    "id": "25986662",
@@ -7376,7 +8814,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915734567.jpg",
    "intro": "2019-02-05(中国大陆) / 2024-12-20(中国大陆重映) / 黄渤 / 沈腾 / 汤姆·派福瑞 / 马修·莫里森 / 徐峥 / 于和伟 / 雷佳音 / 刘桦 / 邓飞 / 蔡明凯 / 中国大陆 / 宁浩 / 116分钟 / 喜剧 / 科幻 / 孙小杭 Xiaohang Sun / 董润年 Runnian Dong / 吴楠 Nan Wu / 刘晓丹 / 潘依然 / 汉语普通话 / 英语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "疯狂的外星人",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "116分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "科幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语"
+    ],
+    "directors": [
+     "宁浩"
+    ],
+    "actors": [
+     "黄渤",
+     "沈腾",
+     "汤姆·派福瑞",
+     "马修·莫里森",
+     "徐峥",
+     "于和伟"
+    ]
+   }
   },
   "1296996": {
    "id": "1296996",
@@ -7386,7 +8856,39 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913781951.jpg",
    "intro": "2002-11-15(英国) / 2002-11-15(美国) / 2003-01-24(中国大陆) / 2024-10-18(中国大陆重映) / 丹尼尔·雷德克里夫 / 艾玛·沃森 / 鲁伯特·格林特 / 汤姆·费尔顿 / 理查德·格雷弗斯 / 费奥纳·肖 / 托比·琼斯 / 朱丽·沃特斯 / 邦妮·怀特 / 詹森·艾萨克 / 英国 / 美国 / www.harrypotter.co.uk / 克里斯·哥伦布 / 161分钟 / 174分钟(加长版) / 哈利·波特与密室 / 奇幻 / 冒险 / Steve Kloves / J.K. Rowling / 英语",
-   "orig": "Harry Potter and the Chamber of Secrets"
+   "orig": "Harry Potter and the Chamber of Secrets",
+   "detail": {
+    "title": "哈利·波特与密室",
+    "original_title": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "161分钟"
+    ],
+    "genres": [
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "英国",
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "克里斯·哥伦布"
+    ],
+    "actors": [
+     "丹尼尔·雷德克里夫",
+     "艾玛·沃森",
+     "鲁伯特·格林特",
+     "汤姆·费尔顿",
+     "理查德·格雷弗斯",
+     "费奥纳·肖"
+    ]
+   }
   },
   "1482072": {
    "id": "1482072",
@@ -7396,7 +8898,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p735379215.jpg",
    "intro": "2006-06-30(美国) / 2007-02-27(中国大陆) / 梅丽尔·斯特里普 / 安妮·海瑟薇 / 艾米莉·布朗特 / 斯坦利·图齐 / 西蒙·贝克 / 艾德里安·格尼尔 / 翠茜·索姆斯 / 里奇·索莫 / 丹尼尔·逊亚塔 / 大卫·马歇尔·格兰特 / 美国 / 法国 / 大卫·弗兰科尔 / 109分钟 / 穿普拉达的女王 / 剧情 / 喜剧 / 艾莲·布洛什·麦肯纳 Aline Brosh McKenna / 劳伦·魏丝伯格 Lauren Weisberger / 英语 / 法语",
-   "orig": "The Devil Wears Prada"
+   "orig": "The Devil Wears Prada",
+   "detail": {
+    "title": "穿普拉达的女王",
+    "original_title": "The Devil Wears Prada",
+    "year": 2006,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "109分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧"
+    ],
+    "countries": [
+     "美国",
+     "法国"
+    ],
+    "languages": [
+     "英语",
+     "法语"
+    ],
+    "directors": [
+     "大卫·弗兰科尔"
+    ],
+    "actors": [
+     "梅丽尔·斯特里普",
+     "安妮·海瑟薇",
+     "艾米莉·布朗特",
+     "斯坦利·图齐",
+     "西蒙·贝克",
+     "艾德里安·格尼尔"
+    ]
+   }
   },
   "27038183": {
    "id": "27038183",
@@ -7406,7 +8941,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2499793218.jpg",
    "intro": "2017-09-30(中国大陆) / 艾伦 / 马丽 / 沈腾 / 田雨 / 宋阳 / 薛皓文 / 常远 / 黄才伦 / 王智 / 尹正 / 中国大陆 / 宋阳 / 张吃鱼 / 100分钟 / 喜剧 / 奇幻 / 张吃鱼 / 宋阳 Yang Song / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "羞羞的铁拳",
+    "original_title": "",
+    "year": 2017,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "100分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "宋阳",
+     "张吃鱼"
+    ],
+    "actors": [
+     "艾伦",
+     "马丽",
+     "沈腾",
+     "田雨",
+     "宋阳",
+     "薛皓文"
+    ]
+   }
   },
   "1297447": {
    "id": "1297447",
@@ -7416,7 +8983,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2918554634.jpg",
    "intro": "1987-07-18(中国香港) / 2011-04-30(中国大陆) / 2025-03-21(中国大陆重映) / 张国荣 / 王祖贤 / 午马 / 刘兆铭 / 林威 / 薛芷伦 / 王晶 / 胡大为 / 黄虾 / 史美仪 / 中国香港 / 程小东 / 96分钟 / 爱情 / 奇幻 / 武侠 / 古装 / 阮继志 Kai-Chi Yun / 粤语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "倩女幽魂",
+    "original_title": "",
+    "year": 1987,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "96分钟"
+    ],
+    "genres": [
+     "爱情",
+     "奇幻",
+     "武侠",
+     "古装"
+    ],
+    "countries": [
+     "中国香港"
+    ],
+    "languages": [
+     "粤语"
+    ],
+    "directors": [
+     "程小东"
+    ],
+    "actors": [
+     "张国荣",
+     "王祖贤",
+     "午马",
+     "刘兆铭",
+     "林威",
+     "薛芷伦"
+    ]
+   }
   },
   "25845392": {
    "id": "25845392",
@@ -7426,7 +9026,43 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2681329386.jpg",
    "intro": "2021-09-30(中国大陆) / 吴京 / 易烊千玺 / 段奕宏 / 朱亚文 / 李晨 / 韩东君 / 胡军 / 张涵予 / 黄轩 / 欧豪 / 中国大陆 / 中国香港 / 陈凯歌 / 徐克 / 林超贤 / 宁海强 / 176分钟 / 剧情 / 历史 / 战争 / 兰晓龙 Xiaolong Lan / 黄建新 Jianxin Huang / 汉语普通话 / 英语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "长津湖",
+    "original_title": "",
+    "year": 2021,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "176分钟"
+    ],
+    "genres": [
+     "剧情",
+     "历史",
+     "战争"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语"
+    ],
+    "directors": [
+     "陈凯歌",
+     "徐克",
+     "林超贤"
+    ],
+    "actors": [
+     "吴京",
+     "易烊千玺",
+     "段奕宏",
+     "朱亚文",
+     "李晨",
+     "韩东君"
+    ]
+   }
   },
   "32493124": {
    "id": "32493124",
@@ -7436,7 +9072,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2638045698.jpg",
    "intro": "2021-04-30(中国大陆) / 张译 / 于和伟 / 秦海璐 / 朱亚文 / 刘浩存 / 倪大红 / 李乃文 / 余皑磊 / 飞凡 / 雷佳音 / 中国大陆 / 中国香港 / 张艺谋 / 120分钟 / 剧情 / 动作 / 悬疑 / 全勇先 Yongxian Quan / 张艺谋 Yimou Zhang / 潘依然 Yiran Pan / 汉语普通话 / 英语 / 俄语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "悬崖之上",
+    "original_title": "",
+    "year": 2021,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "120分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动作",
+     "悬疑"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语",
+     "俄语"
+    ],
+    "directors": [
+     "张艺谋"
+    ],
+    "actors": [
+     "张译",
+     "于和伟",
+     "秦海璐",
+     "朱亚文",
+     "刘浩存",
+     "倪大红"
+    ]
+   }
   },
   "6874741": {
    "id": "6874741",
@@ -7446,7 +9117,39 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2507572275.jpg",
    "intro": "2018-01-12(中国大陆) / 章子怡 / 黄晓明 / 张震 / 王力宏 / 陈楚生 / 铁政 / 祖峰 / 米雪 / 王盛德 / 韩童生 / 中国大陆 / 李芳芳 / 138分钟 / 剧情 / 爱情 / 战争 / 李芳芳 Fangfang Li / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "无问西东",
+    "original_title": "",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "138分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情",
+     "战争"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "李芳芳"
+    ],
+    "actors": [
+     "章子怡",
+     "黄晓明",
+     "张震",
+     "王力宏",
+     "陈楚生",
+     "铁政"
+    ]
+   }
   },
   "2353023": {
    "id": "2353023",
@@ -7456,7 +9159,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2210954024.jpg",
    "intro": "2010-03-18(俄罗斯) / 2010-03-26(美国) / 2010-05-14(中国大陆) / 杰伊·巴鲁切尔 / 杰拉德·巴特勒 / 克雷格·费格森 / 亚美莉卡·费雷拉 / 乔纳·希尔 / 克里斯托夫·梅兹-普莱瑟 / T·J·米勒 / 克里斯汀·韦格 / 罗宾·阿特金·唐斯 / 菲利普·麦格雷德 / 美国 / www.dreamworksdragons.com/ / 迪恩·戴布洛伊 / 克里斯·桑德斯 / 98分钟 / 驯龙高手 / 动画 / 奇幻 / 冒险 / 威廉姆·戴维斯 William Davies / 迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders / 葛蕾熙达·柯维尔 Cressida Cowell / 英语",
-   "orig": "How to Train Your Dragon"
+   "orig": "How to Train Your Dragon",
+   "detail": {
+    "title": "驯龙高手",
+    "original_title": "How to Train Your Dragon",
+    "year": 2010,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "98分钟"
+    ],
+    "genres": [
+     "动画",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "迪恩·戴布洛伊",
+     "克里斯·桑德斯"
+    ],
+    "actors": [
+     "杰伊·巴鲁切尔",
+     "杰拉德·巴特勒",
+     "克雷格·费格森",
+     "亚美莉卡·费雷拉",
+     "乔纳·希尔",
+     "克里斯托夫·梅兹-普莱瑟"
+    ]
+   }
   },
   "30295905": {
    "id": "30295905",
@@ -7466,7 +9202,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568258113.jpg",
    "intro": "2019-09-30(中国大陆) / 2021-12-01(中国大陆重映) / 张涵予 / 欧豪 / 杜江 / 袁泉 / 张天爱 / 李沁 / 张雅玫 / 杨祺如 / 高戈 / 黄志忠 / 中国大陆 / 刘伟强 / 111分钟 / 剧情 / 传记 / 灾难 / 于勇敢 Yonggan Yu / 汉语普通话 / 藏语 / 英语 / 四川话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "中国机长",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "111分钟"
+    ],
+    "genres": [
+     "剧情",
+     "传记",
+     "灾难"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "藏语",
+     "英语",
+     "四川话"
+    ],
+    "directors": [
+     "刘伟强"
+    ],
+    "actors": [
+     "张涵予",
+     "欧豪",
+     "杜江",
+     "袁泉",
+     "张天爱",
+     "李沁"
+    ]
+   }
   },
   "10574622": {
    "id": "10574622",
@@ -7476,7 +9247,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1793720172.jpg",
    "intro": "2012-12-12(中国大陆) / 徐峥 / 王宝强 / 黄渤 / 陶虹 / 谢楠 / 范冰冰 / 陈祉希 / Rose / 尹思勰 / 中国大陆 / 徐峥 / 105分钟 / 喜剧 / 徐峥 Zheng Xu / 丁丁 Ding Ding / 束焕 Huan Shu / 汉语普通话 / 英语 / 泰语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "人再囧途之泰囧",
+    "original_title": "",
+    "year": 2012,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "105分钟"
+    ],
+    "genres": [
+     "喜剧"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语",
+     "泰语"
+    ],
+    "directors": [
+     "徐峥"
+    ],
+    "actors": [
+     "徐峥",
+     "王宝强",
+     "黄渤",
+     "陶虹",
+     "谢楠",
+     "范冰冰"
+    ]
+   }
   },
   "24773958": {
    "id": "24773958",
@@ -7486,7 +9289,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516481762.jpg",
    "intro": "2018-04-23(加州首映) / 2018-04-27(美国) / 2018-05-11(中国大陆) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 斯嘉丽·约翰逊 / 马克·鲁法洛 / 乔什·布洛林 / 本尼迪克特·康伯巴奇 / 汤姆·霍兰德 / 克里斯·帕拉特 / 佐伊·索尔达娜 / 美国 / marvel.com/avengers / 安东尼·罗素 / 乔·罗素 / 149分钟 / 复仇者联盟3：无限战争 / 动作 / 科幻 / 奇幻 / 冒险 / 杰克·科比 Jack Kirby / 克里斯托弗·马库斯 Christopher Markus / 斯蒂芬·麦克菲利 Stephen McFeely / 吉姆·斯特林 Jim Starlin / 英语",
-   "orig": "Avengers: Infinity War"
+   "orig": "Avengers: Infinity War",
+   "detail": {
+    "title": "复仇者联盟3：无限战争",
+    "original_title": "Avengers: Infinity War",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "149分钟"
+    ],
+    "genres": [
+     "动作",
+     "科幻",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "安东尼·罗素",
+     "乔·罗素"
+    ],
+    "actors": [
+     "小罗伯特·唐尼",
+     "克里斯·埃文斯",
+     "克里斯·海姆斯沃斯",
+     "斯嘉丽·约翰逊",
+     "马克·鲁法洛",
+     "乔什·布洛林"
+    ]
+   }
   },
   "3011235": {
    "id": "3011235",
@@ -7496,7 +9333,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.jpg",
    "intro": "2011-07-15(美国) / 2011-08-04(中国大陆) / 2024-11-29(中国大陆重映) / 丹尼尔·雷德克里夫 / 艾玛·沃森 / 鲁伯特·格林特 / 海伦娜·伯翰·卡特 / 拉尔夫·费因斯 / 艾伦·瑞克曼 / 玛吉·史密斯 / 汤姆·费尔顿 / 邦妮·怀特 / 朱丽·沃特斯 / 美国 / 英国 / 大卫·叶茨 / 130分钟 / 哈利·波特与死亡圣器(下) / 奇幻 / 冒险 / 斯蒂芬·科洛弗 Steve Kloves / J·K·罗琳 J.K. Rowling / 英语",
-   "orig": "Harry Potter and the Deathly Hallows: Part 2"
+   "orig": "Harry Potter and the Deathly Hallows: Part 2",
+   "detail": {
+    "title": "哈利·波特与死亡圣器(下)",
+    "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": 2011,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "130分钟"
+    ],
+    "genres": [
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国",
+     "英国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "大卫·叶茨"
+    ],
+    "actors": [
+     "丹尼尔·雷德克里夫",
+     "艾玛·沃森",
+     "鲁伯特·格林特",
+     "海伦娜·伯翰·卡特",
+     "拉尔夫·费因斯",
+     "艾伦·瑞克曼"
+    ]
+   }
   },
   "1862151": {
    "id": "1862151",
@@ -7506,7 +9375,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p712241453.jpg",
    "intro": "2006-06-30(中国大陆) / 2006-08-10(中国香港) / 郭涛 / 刘桦 / 连晋 / 黄渤 / 徐峥 / 岳小军 / 罗兰 / 王迅 / 宁浩 / 杜杰 / 中国大陆 / 中国香港 / 宁浩 / 106分钟(香港) / 98分钟(中国大陆) / 喜剧 / 犯罪 / 张承 Cheng Zhang / 宁浩 Hao Ning / 岳小军 Xiaojun Yue / 汉语普通话 / 重庆话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "疯狂的石头",
+    "original_title": "",
+    "year": 2006,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "106分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "犯罪"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话",
+     "重庆话"
+    ],
+    "directors": [
+     "宁浩"
+    ],
+    "actors": [
+     "郭涛",
+     "刘桦",
+     "连晋",
+     "黄渤",
+     "徐峥",
+     "岳小军"
+    ]
+   }
   },
   "26862829": {
    "id": "26862829",
@@ -7516,7 +9418,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507227732.jpg",
    "intro": "2017-09-07(多伦多电影节) / 2017-12-15(中国大陆) / 黄轩 / 苗苗 / 钟楚曦 / 杨采钰 / 李晓峰 / 王天辰 / 王可如 / 隋源 / 张仁博 / 苏岩 / 中国大陆 / 冯小刚 / 136分钟 / 146分钟(多伦多电影节) / 剧情 / 历史 / 战争 / 严歌苓 / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "芳华",
+    "original_title": "",
+    "year": 2017,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "136分钟"
+    ],
+    "genres": [
+     "剧情",
+     "历史",
+     "战争"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "冯小刚"
+    ],
+    "actors": [
+     "黄轩",
+     "苗苗",
+     "钟楚曦",
+     "杨采钰",
+     "李晓峰",
+     "王天辰"
+    ]
+   }
   },
   "26754233": {
    "id": "26754233",
@@ -7526,7 +9460,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2615925279.jpg",
    "intro": "2020-08-14(大规模点映) / 2020-08-21(中国大陆) / 王千源 / 张译 / 姜武 / 黄志忠 / 张俊一 / 欧豪 / 杜淳 / 魏晨 / 张宥浩 / 唐艺昕 / 中国大陆 / 管虎 / 147分钟(公映版) / 160分钟(上海电影节) / 剧情 / 历史 / 战争 / 管虎 Hu Guan / 葛瑞 Rui Ge / 汉语普通话 / 日语 / 英语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "八佰",
+    "original_title": "",
+    "year": 2020,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "147分钟"
+    ],
+    "genres": [
+     "剧情",
+     "历史",
+     "战争"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "日语",
+     "英语"
+    ],
+    "directors": [
+     "管虎"
+    ],
+    "actors": [
+     "王千源",
+     "张译",
+     "姜武",
+     "黄志忠",
+     "张俊一",
+     "欧豪"
+    ]
+   }
   },
   "19944106": {
    "id": "19944106",
@@ -7536,7 +9504,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2316177058.jpg",
    "intro": "2016-02-08(中国大陆) / 2016-02-08(中国香港) / 邓超 / 罗志祥 / 张雨绮 / 林允 / 徐克 / 李尚正 / 卢正雨 / 白客 / 孔连顺 / 田启文 / 中国大陆 / 中国香港 / 周星驰 / 93分钟 / 喜剧 / 爱情 / 奇幻 / 周星驰 Stephen Chow / 李思臻 Kelvin Lee / 何妙祺 Miu-Kei Ho / 卢正雨 Zhengyu Lu / 冯志强 Chi Keung Fung / 陈庆嘉 Hing-Ka Chan / 江玉仪 Ivy Kong / 曾谨昌 Kan-Cheung Tsang / 汉语普通话 / 英语 / 日语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "美人鱼",
+    "original_title": "",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "93分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语",
+     "日语"
+    ],
+    "directors": [
+     "周星驰"
+    ],
+    "actors": [
+     "邓超",
+     "罗志祥",
+     "张雨绮",
+     "林允",
+     "徐克",
+     "吴亦凡"
+    ]
+   }
   },
   "26311973": {
    "id": "26311973",
@@ -7546,7 +9549,41 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2302930556.jpg",
    "intro": "2015-12-31(中国大陆) / 王宝强 / 刘昊然 / 佟丽娅 / 陈赫 / 肖央 / 小沈阳 / 潘粤明 / 马浴柯 / 张子枫 / 赵英俊 / 中国大陆 / 陈思诚 / 135分钟 / 喜剧 / 动作 / 悬疑 / 陈思诚 Sicheng Chen / 程佳客 Jiake Cheng / 刘凯 Kai Liu / 白鹤 He Bai / 汉语普通话 / 泰语 / 英语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "唐人街探案",
+    "original_title": "",
+    "year": 2015,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "135分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动作",
+     "悬疑"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "泰语",
+     "英语"
+    ],
+    "directors": [
+     "陈思诚"
+    ],
+    "actors": [
+     "王宝强",
+     "刘昊然",
+     "佟丽娅",
+     "陈赫",
+     "肖央",
+     "小沈阳"
+    ]
+   }
   },
   "30176393": {
    "id": "30176393",
@@ -7556,7 +9593,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614628862.jpg",
    "intro": "2019-12-07(大规模点映) / 2019-12-13(中国大陆) / 2020-07-20(中国大陆重映) / 肖央 / 谭卓 / 陈冲 / 姜皓文 / 秦沛 / 边天扬 / 许文姗 / 张熙然 / 施名帅 / 黄健玮 / 中国大陆 / 柯汶利 / 112分钟 / 剧情 / 犯罪 / 悬疑 / 杨薇薇 Weiwei Yang / 翟培 / 李鹏 / 范凯华 / 秦语谦 / 雷声 Sheng Lei / 汉语普通话 / 泰语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "误杀",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "112分钟"
+    ],
+    "genres": [
+     "剧情",
+     "悬疑",
+     "犯罪"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "泰语"
+    ],
+    "directors": [
+     "柯汶利"
+    ],
+    "actors": [
+     "肖央",
+     "谭卓",
+     "陈冲",
+     "姜皓文",
+     "秦沛",
+     "边天扬"
+    ]
+   }
   },
   "4920528": {
    "id": "4920528",
@@ -7566,7 +9636,39 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1348910586.jpg",
    "intro": "2011-08-19(中国台湾) / 2012-01-06(中国大陆) / 柯震东 / 陈妍希 / 敖犬 / 郝劭文 / 蔡昌宪 / 侯彦西 / 弯弯 / 邱彦翔 / 王彩桦 / 柯义浤 / 中国台湾 / 九把刀 / 110分钟 / 100分钟(中国大陆) / 那些年，我们一起追的女孩 / 剧情 / 喜剧 / 爱情 / 九把刀 Giddens / 汉语普通话",
-   "orig": "那些年，我們一起追的女孩"
+   "orig": "那些年，我們一起追的女孩",
+   "detail": {
+    "title": "那些年，我们一起追的女孩",
+    "original_title": "那些年，我們一起追的女孩",
+    "year": 2011,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "110分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "中国台湾"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "九把刀"
+    ],
+    "actors": [
+     "柯震东",
+     "陈妍希",
+     "敖犬",
+     "郝劭文",
+     "蔡昌宪",
+     "侯彦西"
+    ]
+   }
   },
   "30163509": {
    "id": "30163509",
@@ -7576,7 +9678,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2542973862.jpg",
    "intro": "2019-02-05(中国大陆) / 沈腾 / 黄景瑜 / 尹正 / 张本煜 / 尹昉 / 田雨 / 魏翔 / 赵文瑄 / 腾格尔 / 易小星 / 中国大陆 / 韩寒 / 98分钟 / 剧情 / 喜剧 / 运动 / 韩寒 Han Han / 汉语普通话 / 英语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "飞驰人生",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "98分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "运动"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语"
+    ],
+    "directors": [
+     "韩寒"
+    ],
+    "actors": [
+     "沈腾",
+     "黄景瑜",
+     "尹正",
+     "张本煜",
+     "尹昉",
+     "田雨"
+    ]
+   }
   },
   "26985127": {
    "id": "26985127",
@@ -7586,7 +9721,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2529571873.jpg",
    "intro": "2018-08-10(中国大陆) / 黄渤 / 舒淇 / 王宝强 / 张艺兴 / 于和伟 / 王迅 / 李勤勤 / 李又麟 / 宁浩 / 管虎 / 中国大陆 / 黄渤 / 134分钟 / 剧情 / 喜剧 / 黄渤 Bo Huang / 张冀 Ji Zhang / 郭俊立 Junli Guo / 查慕春 Muchun Zha / 崔斯韦 Siwei Cui / 邢爱娜 Aina Xing / 黄湛中 Zhanzhong Huang / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "一出好戏",
+    "original_title": "",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "134分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "黄渤"
+    ],
+    "actors": [
+     "黄渤",
+     "舒淇",
+     "王宝强",
+     "张艺兴",
+     "于和伟",
+     "王迅"
+    ]
+   }
   },
   "26698897": {
    "id": "26698897",
@@ -7596,7 +9762,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2512717519.jpg",
    "intro": "2018-02-16(中国大陆) / 王宝强 / 刘昊然 / 肖央 / 刘承羽 / 尚语贤 / 王迅 / 妻夫木聪 / 迈克尔·皮特 / 白灵 / 元华 / 中国大陆 / 陈思诚 / 121分钟 / 喜剧 / 动作 / 悬疑 / 陈思诚 Sicheng Chen / 严以宁 Yining Yan / 莲舟 Lianzhou / 张淳 Chun Zhang / 程佳客 Jiake Cheng / 高丽锋 / 汉语普通话 / 英语 / 日语 / 粤语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "唐人街探案2",
+    "original_title": "",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "121分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动作",
+     "悬疑"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语",
+     "日语",
+     "粤语"
+    ],
+    "directors": [
+     "陈思诚"
+    ],
+    "actors": [
+     "王宝强",
+     "刘昊然",
+     "肖央",
+     "刘承羽",
+     "尚语贤",
+     "王迅"
+    ]
+   }
   },
   "5912992": {
    "id": "5912992",
@@ -7606,7 +9807,37 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1363250216.jpg",
    "intro": "2011-09-22(韩国) / 孔刘 / 郑裕美 / 金贤秀 / 郑仁絮 / 白承焕 / 张矿 / 金民尚 / 林贤成 / 金周灵 / 严孝燮 / 韩国 / 黄东赫 / 125分钟 / 熔炉 / 剧情 / 黄东赫 Dong-hyuk Hwang / 孔枝泳 Ji-young Gong / 韩语",
-   "orig": "도가니"
+   "orig": "도가니",
+   "detail": {
+    "title": "熔炉",
+    "original_title": "도가니",
+    "year": 2011,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "125分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "韩国"
+    ],
+    "languages": [
+     "韩语"
+    ],
+    "directors": [
+     "黄东赫"
+    ],
+    "actors": [
+     "孔刘",
+     "郑裕美",
+     "金贤秀",
+     "郑仁絮",
+     "白承焕",
+     "张矿"
+    ]
+   }
   },
   "24733428": {
    "id": "24733428",
@@ -7616,7 +9847,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2595591069.jpg",
    "intro": "2020-10-11(伦敦电影节) / 2020-12-25(中国大陆/美国网络) / 杰米·福克斯 / 蒂娜·菲 / 菲利西亚·拉斯海德 / 阿米尔-卡利布·汤普森 / 戴维德·迪格斯 / 格拉汉姆·诺顿 / 瑞切尔·豪斯 / 艾莉丝·布拉加 / 理查德·艾欧阿德 / 唐尼尔·罗林斯 / 美国 / 彼特·道格特 / 凯普·鲍尔斯 / 100分钟 / 心灵奇旅 / 动画 / 奇幻 / 音乐 / 彼特·道格特 Pete Docter / 麦克·琼斯 Mike Jones / 坎普·鲍尔斯 Kemp Powers / 英语",
-   "orig": "Soul"
+   "orig": "Soul",
+   "detail": {
+    "title": "心灵奇旅",
+    "original_title": "Soul",
+    "year": 2020,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "100分钟"
+    ],
+    "genres": [
+     "动画",
+     "音乐",
+     "奇幻"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "彼特·道格特",
+     "凯普·鲍尔斯"
+    ],
+    "actors": [
+     "杰米·福克斯",
+     "蒂娜·菲",
+     "菲利西亚·拉斯海德",
+     "阿米尔-卡利布·汤普森",
+     "戴维德·迪格斯",
+     "格拉汉姆·诺顿"
+    ]
+   }
   },
   "3287562": {
    "id": "3287562",
@@ -7626,7 +9890,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792776858.jpg",
    "intro": "2010-06-20(莫斯科电影节) / 2010-07-09(美国) / 史蒂夫·卡瑞尔 / 杰森·席格尔 / 拉塞尔·布兰德 / 朱莉·安德鲁斯 / 威尔·阿奈特 / 克里斯汀·韦格 / 米兰达·卡斯格拉夫 / 达纳·盖尔 / 艾尔西·费舍尔 / 皮埃尔·柯芬 / 美国 / 法国 / www.despicableme.com / 皮埃尔·柯芬 / 克里斯·雷纳德 / 95分钟 / 神偷奶爸 / 喜剧 / 动画 / 冒险 / 肯·达里奥 Ken Daurio / 塞尔吉奥·帕布洛 Sergio Pablos / 辛科·保罗 Cinco Paul / 英语",
-   "orig": "Despicable Me"
+   "orig": "Despicable Me",
+   "detail": {
+    "title": "神偷奶爸",
+    "original_title": "Despicable Me",
+    "year": 2010,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "95分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国",
+     "法国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "皮埃尔·柯芬",
+     "克里斯·雷纳德"
+    ],
+    "actors": [
+     "史蒂夫·卡瑞尔",
+     "杰森·席格尔",
+     "拉塞尔·布兰德",
+     "朱莉·安德鲁斯",
+     "威尔·阿奈特",
+     "克里斯汀·韦格"
+    ]
+   }
   },
   "25964071": {
    "id": "25964071",
@@ -7636,7 +9934,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2264377763.jpg",
    "intro": "2015-09-30(中国大陆) / 沈腾 / 马丽 / 尹正 / 艾伦 / 王智 / 田雨 / 宋阳 / 常远 / 李萍 / 李立群 / 中国大陆 / 闫非 / 彭大魔 / 104分钟 / 喜剧 / 爱情 / 闫非 Fei Yan / 彭大魔 Damo Peng / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "夏洛特烦恼",
+    "original_title": "",
+    "year": 2015,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "104分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "闫非",
+     "彭大魔"
+    ],
+    "actors": [
+     "沈腾",
+     "马丽",
+     "尹正",
+     "艾伦",
+     "王智",
+     "田雨"
+    ]
+   }
   },
   "1302425": {
    "id": "1302425",
@@ -7646,7 +9976,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2917778954.jpg",
    "intro": "1999-02-13(中国香港) / 周星驰 / 张柏芝 / 莫文蔚 / 吴孟达 / 林子善 / 田启文 / 李兆基 / 成龙 / 李思捷 / 郑文辉 / 中国香港 / 周星驰 / 李力持 / 89分钟 / 喜剧之王 / 喜剧 / 剧情 / 爱情 / 曾谨昌 Kan-Cheung Tsang / 周星驰 Stephen Chow / 李敏 Erica Lee / 郑文辉 Man-Fai Cheng / 冯勉恒 Min Hun Fung / 梁嘉杰 Ka-Kit Leung / 粤语",
-   "orig": "喜劇之王"
+   "orig": "喜劇之王",
+   "detail": {
+    "title": "喜剧之王",
+    "original_title": "喜劇之王",
+    "year": 1999,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "89分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "中国香港"
+    ],
+    "languages": [
+     "粤语"
+    ],
+    "directors": [
+     "周星驰",
+     "李力持"
+    ],
+    "actors": [
+     "周星驰",
+     "张柏芝",
+     "莫文蔚",
+     "吴孟达",
+     "林子善",
+     "田启文"
+    ]
+   }
   },
   "1293839": {
    "id": "1293839",
@@ -7656,7 +10019,41 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.jpg",
    "intro": "1953-08-20(威尼斯电影节) / 1953-09-02(美国) / 奥黛丽·赫本 / 格利高里·派克 / 埃迪·艾伯特 / 哈特利·鲍尔 / 哈考特·威廉姆斯 / 玛格丽特·罗林斯 / 托里奥·卡米纳提 / 保罗·卡利尼 / 克劳迪奥·埃尔梅利 / 保拉·布鲁布尼 / 美国 / 威廉·惠勒 / 118分钟 / 罗马假日 / 喜剧 / 剧情 / 爱情 / 达尔顿·特朗勃 Dalton Trumbo / 伊安·麦克莱伦·亨特 Ian McLellan Hunter / 约翰·戴顿 John Dighton / 英语 / 意大利语 / 德语",
-   "orig": "Roman Holiday"
+   "orig": "Roman Holiday",
+   "detail": {
+    "title": "罗马假日",
+    "original_title": "Roman Holiday",
+    "year": 1953,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "118分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "意大利语",
+     "德语"
+    ],
+    "directors": [
+     "威廉·惠勒"
+    ],
+    "actors": [
+     "奥黛丽·赫本",
+     "格利高里·派克",
+     "埃迪·艾伯特",
+     "哈特利·鲍尔",
+     "哈考特·威廉姆斯",
+     "玛格丽特·罗林斯"
+    ]
+   }
   },
   "1485260": {
    "id": "1485260",
@@ -7666,7 +10063,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.jpg",
    "intro": "2008-12-25(美国) / 布拉德·皮特 / 凯特·布兰切特 / 朱莉娅·奥蒙德 / 芳妮·A·钱勃丝 / 伊莱亚斯·科泰斯 / 杰森·弗莱明 / 大卫·詹森 / 蒂尔达·斯文顿 / 艾丽·范宁 / 乔安娜·塞勒 / 美国 / 大卫·芬奇 / 166分钟 / 本杰明·巴顿奇事 / 剧情 / 爱情 / 奇幻 / 艾瑞克·罗斯 Eric Roth / Robin Swicord / 弗·司各特·菲茨杰拉德 F. Scott Fitzgerald / 英语 / 俄语 / 法语",
-   "orig": "The Curious Case of Benjamin Button"
+   "orig": "The Curious Case of Benjamin Button",
+   "detail": {
+    "title": "本杰明·巴顿奇事",
+    "original_title": "The Curious Case of Benjamin Button",
+    "year": 2008,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "166分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情",
+     "奇幻"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "俄语",
+     "法语"
+    ],
+    "directors": [
+     "大卫·芬奇"
+    ],
+    "actors": [
+     "布拉德·皮特",
+     "凯特·布兰切特",
+     "朱莉娅·奥蒙德",
+     "芳妮·A·钱勃丝",
+     "伊莱亚斯·科泰斯",
+     "杰森·弗莱明"
+    ]
+   }
   },
   "1308807": {
    "id": "1308807",
@@ -7676,7 +10107,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907583906.jpg",
    "intro": "2004-09-05(威尼斯电影节) / 2004-11-20(日本) / 2024-04-30(中国大陆) / 倍赏千惠子 / 木村拓哉 / 美轮明宏 / 我修院达也 / 神木隆之介 / 伊崎充则 / 大泉洋 / 大塚明夫 / 原田大二郎 / 加藤治子 / 日本 / 宫崎骏 / 119分钟 / 哈尔的移动城堡 / 爱情 / 动画 / 奇幻 / 冒险 / 宫崎骏 Hayao Miyazaki / 日语",
-   "orig": "ハウルの動く城"
+   "orig": "ハウルの動く城",
+   "detail": {
+    "title": "哈尔的移动城堡",
+    "original_title": "ハウルの動く城",
+    "year": 2004,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "119分钟"
+    ],
+    "genres": [
+     "爱情",
+     "动画",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "日本"
+    ],
+    "languages": [
+     "日语"
+    ],
+    "directors": [
+     "宫崎骏"
+    ],
+    "actors": [
+     "倍赏千惠子",
+     "木村拓哉",
+     "美轮明宏",
+     "我修院达也",
+     "神木隆之介",
+     "伊崎充则"
+    ]
+   }
   },
   "11026735": {
    "id": "11026735",
@@ -7686,7 +10150,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2224568669.jpg",
    "intro": "2014-10-23(东京电影节) / 2014-11-07(美国) / 2015-02-28(中国大陆) / 2020-07-31(中国大陆重映) / 斯科特·安第斯 / 瑞恩·波特 / 丹尼尔·海尼 / T·J·米勒 / 郑智麟 / 小达蒙·韦恩斯 / 珍尼希斯·罗德里格兹 / 詹姆斯·克伦威尔 / 艾伦·图代克 / 玛娅·鲁道夫 / 美国 / www.disneyanimation.com/projects/bighero6 / 唐·霍尔 / 克里斯·威廉姆斯 / 102分钟 / 超能陆战队 / 喜剧 / 动作 / 科幻 / 动画 / 冒险 / 乔丹·罗伯茨 Jordan Roberts / 丹尼尔·吉尔森 Daniel Gerson / 罗伯特·L·贝尔德 Robert L. Baird / 英语",
-   "orig": "Big Hero 6"
+   "orig": "Big Hero 6",
+   "detail": {
+    "title": "超能陆战队",
+    "original_title": "Big Hero 6",
+    "year": 2014,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "102分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动作",
+     "科幻",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "唐·霍尔",
+     "克里斯·威廉姆斯"
+    ],
+    "actors": [
+     "斯科特·安第斯",
+     "瑞恩·波特",
+     "丹尼尔·海尼",
+     "T·J·米勒",
+     "郑智麟",
+     "小达蒙·韦恩斯"
+    ]
+   }
   },
   "30170448": {
    "id": "30170448",
@@ -7696,7 +10195,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2875749222.jpg",
    "intro": "2018-05-17(戛纳电影节) / 2018-09-20(黎巴嫩) / 2019-04-29(中国大陆) / 赞恩·阿尔·拉菲亚 / 约丹诺斯·希费罗 / 博鲁瓦蒂夫·特雷杰·班科尔 / 卡萨尔·艾尔·哈达德 / 法迪·尤瑟夫 / 海塔·塞德拉·伊扎姆 / 阿拉·乔什涅 / 娜丁·拉巴基 / 埃利亚斯·库利 / 努尔·艾尔·侯赛尼 / 黎巴嫩 / 美国 / 法国 / 塞浦路斯 / 卡塔尔 / 英国 / 娜丁·拉巴基 / 126分钟 / 117分钟(中国大陆) / 何以为家 / 剧情 / 娜丁·拉巴基 Nadine Labaki / 吉哈德·霍加里 Jihad Hojeily / 米歇尔·凯斯沃尼 Michelle Keserwany / 乔治斯·哈巴兹 Georges Khabbaz / 哈立德·穆扎纳 Khaled Mouzanar / 阿拉伯语 / 阿姆哈拉语",
-   "orig": "كفرناحوم"
+   "orig": "كفرناحوم",
+   "detail": {
+    "title": "何以为家",
+    "original_title": "كفرناحوم",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "126分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "黎巴嫩",
+     "美国",
+     "法国",
+     "塞浦路斯",
+     "卡塔尔",
+     "英国"
+    ],
+    "languages": [
+     "阿拉伯语",
+     "阿姆哈拉语"
+    ],
+    "directors": [
+     "娜丁·拉巴基"
+    ],
+    "actors": [
+     "赞恩·阿尔·拉菲亚",
+     "约丹诺斯·希费罗",
+     "博鲁瓦蒂夫·特雷杰·班科尔",
+     "卡萨尔·艾尔·哈达德",
+     "法迪·尤瑟夫",
+     "海塔·塞德拉·伊扎姆"
+    ]
+   }
   },
   "27605698": {
    "id": "27605698",
@@ -7706,7 +10241,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2529206747.jpg",
    "intro": "2018-07-27(中国大陆) / 沈腾 / 宋芸桦 / 张一鸣 / 张晨光 / 常远 / 魏翔 / 赵自强 / 九孔 / 李立群 / 王成思 / 中国大陆 / 闫非 / 彭大魔 / 118分钟 / 喜剧 / 闫非 Fei Yan / 彭大魔 Damo Peng / 林炳宝 Bingbao Lin / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "西虹市首富",
+    "original_title": "",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "118分钟"
+    ],
+    "genres": [
+     "喜剧"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "闫非",
+     "彭大魔"
+    ],
+    "actors": [
+     "沈腾",
+     "宋芸桦",
+     "张一鸣",
+     "张晨光",
+     "常远",
+     "魏翔"
+    ]
+   }
   },
   "32659890": {
    "id": "32659890",
@@ -7716,7 +10282,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2567998580.jpg",
    "intro": "2019-09-30(中国大陆) / 黄渤 / 张译 / 韩昊霖 / 杜江 / 葛优 / 刘昊然 / 宋佳 / 王千源 / 任素汐 / 吴京 / 中国大陆 / 陈凯歌 / 张一白 / 管虎 / 薛晓路 / 徐峥 / 宁浩 / 文牧野 / 155分钟 / 剧情 / 文宁 Ning Wen / 修梦迪 Mengdi Xiu / 薛晓路 Xiaolu Xue / 何可可 Keke He / 徐峥 Zheng Xu / 管虎 Hu Guan / 张冀 Ji Zhang / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "我和我的祖国",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "155分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "陈凯歌",
+     "张一白",
+     "管虎",
+     "薛晓路"
+    ],
+    "actors": [
+     "黄渤",
+     "张译",
+     "韩昊霖",
+     "杜江",
+     "葛优",
+     "刘昊然"
+    ]
+   }
   },
   "1851857": {
    "id": "1851857",
@@ -7726,7 +10325,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.jpg",
    "intro": "2008-07-14(纽约首映) / 2008-07-18(美国) / 克里斯蒂安·贝尔 / 希斯·莱杰 / 艾伦·艾克哈特 / 迈克尔·凯恩 / 玛吉·吉伦哈尔 / 加里·奥德曼 / 摩根·弗里曼 / 莫尼克·加布里埃拉·库尔内 / 罗恩·迪恩 / 基里安·墨菲 / 美国 / 英国 / thedarkknight.warnerbros.com / 克里斯托弗·诺兰 / 152分钟 / 蝙蝠侠：黑暗骑士 / 剧情 / 动作 / 科幻 / 犯罪 / 惊悚 / 乔纳森·诺兰 Jonathan Nolan / 克里斯托弗·诺兰 Christopher Nolan / 大卫·S·高耶 David S. Goyer / 英语 / 汉语普通话",
-   "orig": "The Dark Knight"
+   "orig": "The Dark Knight",
+   "detail": {
+    "title": "蝙蝠侠：黑暗骑士",
+    "original_title": "The Dark Knight",
+    "year": 2008,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "152分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动作",
+     "科幻",
+     "惊悚",
+     "犯罪"
+    ],
+    "countries": [
+     "美国",
+     "英国"
+    ],
+    "languages": [
+     "英语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "克里斯托弗·诺兰"
+    ],
+    "actors": [
+     "克里斯蒂安·贝尔",
+     "希斯·莱杰",
+     "艾伦·艾克哈特",
+     "迈克尔·凯恩",
+     "玛吉·吉伦哈尔",
+     "加里·奥德曼"
+    ]
+   }
   },
   "1306249": {
    "id": "1306249",
@@ -7736,7 +10371,39 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2357915564.jpg",
    "intro": "1993-07-01(中国香港) / 周星驰 / 巩俐 / 陈百祥 / 郑佩佩 / 朱咪咪 / 梁家仁 / 苑琼丹 / 梁荣忠 / 黄一山 / 黄霑 / 中国香港 / 李力持 / 102 分钟 / 唐伯虎点秋香 / 喜剧 / 爱情 / 古装 / 李力持 Lik-Chi Lee / 谷德昭 Vincent Kok / 陈文强 Man Keung Chan / 粤语",
-   "orig": "唐伯虎點秋香"
+   "orig": "唐伯虎點秋香",
+   "detail": {
+    "title": "唐伯虎点秋香",
+    "original_title": "唐伯虎點秋香",
+    "year": 1993,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "102分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情",
+     "古装"
+    ],
+    "countries": [
+     "中国香港"
+    ],
+    "languages": [
+     "粤语"
+    ],
+    "directors": [
+     "李力持"
+    ],
+    "actors": [
+     "周星驰",
+     "巩俐",
+     "陈百祥",
+     "郑佩佩",
+     "朱咪咪",
+     "梁家仁"
+    ]
+   }
   },
   "1291543": {
    "id": "1291543",
@@ -7746,7 +10413,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2219011938.jpg",
    "intro": "2004-09-14(多伦多电影节) / 2004-12-23(中国大陆) / 2004-12-23(中国香港) / 2015-01-15(中国大陆3D) / 周星驰 / 元秋 / 元华 / 黄圣依 / 梁小龙 / 陈国坤 / 田启文 / 林子聪 / 林雪 / 冯克安 / 中国大陆 / 中国香港 / 周星驰 / 100分钟(3D重映) / 95分钟(中国大陆) / 99分钟(美国) / 动作 / 喜剧 / 犯罪 / 奇幻 / 曾谨昌 Kan-Cheung Tsang / 陈文强 Man Keung Chan / 周星驰 Stephen Chow / 霍昕 Xin Huo / 粤语 / 汉语普通话 / 手语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "功夫",
+    "original_title": "",
+    "year": 2004,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "100分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动作",
+     "犯罪",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "粤语",
+     "汉语普通话",
+     "手语"
+    ],
+    "directors": [
+     "周星驰"
+    ],
+    "actors": [
+     "周星驰",
+     "元秋",
+     "元华",
+     "黄圣依",
+     "梁小龙",
+     "陈国坤"
+    ]
+   }
   },
   "27619748": {
    "id": "27619748",
@@ -7756,7 +10459,43 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2622388983.jpg",
    "intro": "2021-02-12(中国大陆) / 王宝强 / 刘昊然 / 妻夫木聪 / 托尼·贾 / 长泽雅美 / 染谷将太 / 铃木保奈美 / 浅野忠信 / 三浦友和 / 尚语贤 / 中国大陆 / 中国香港 / 日本 / 陈思诚 / 136分钟 / 喜剧 / 悬疑 / 陈思诚 Sicheng Chen / 张淳 / 刘吾驷 Wusi Liu / 周珍妮 / 严以宁 Yining Yan / 汉语普通话 / 日语 / 英语 / 泰语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "唐人街探案3",
+    "original_title": "",
+    "year": 2021,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "136分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "悬疑"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港",
+     "日本"
+    ],
+    "languages": [
+     "汉语普通话",
+     "日语",
+     "英语",
+     "泰语"
+    ],
+    "directors": [
+     "陈思诚"
+    ],
+    "actors": [
+     "王宝强",
+     "刘昊然",
+     "妻夫木聪",
+     "托尼·贾",
+     "长泽雅美",
+     "染谷将太"
+    ]
+   }
   },
   "26100958": {
    "id": "26100958",
@@ -7766,7 +10505,44 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2935257489.jpg",
    "intro": "2019-04-24(中国大陆) / 2019-04-26(美国) / 2026-09-25(美国重映) / 2026-09-25(中国大陆重映) / 小罗伯特·唐尼 / 克里斯·埃文斯 / 克里斯·海姆斯沃斯 / 马克·鲁法洛 / 斯嘉丽·约翰逊 / 杰瑞米·雷纳 / 乔什·布洛林 / 保罗·路德 / 凯伦·吉兰 / 唐·钱德尔 / 美国 / www.marvel.com/movies/avengers-endgame / 安东尼·罗素 / 乔·罗素 / 181分钟 / 186分钟(加长版) / 复仇者联盟4：终局之战 / 剧情 / 动作 / 科幻 / 奇幻 / 冒险 / 克里斯托弗·马库斯 Christopher Markus / 斯蒂芬·麦克菲利 Stephen McFeely / 斯坦·李 Stan Lee / 杰克·科比 Jack Kirby / 吉姆·斯特林 Jim Starlin / 英语 / 日语 / 科萨语",
-   "orig": "Avengers: Endgame"
+   "orig": "Avengers: Endgame",
+   "detail": {
+    "title": "复仇者联盟4：终局之战",
+    "original_title": "Avengers: Endgame",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "181分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动作",
+     "科幻",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "日语",
+     "科萨语"
+    ],
+    "directors": [
+     "安东尼·罗素",
+     "乔·罗素"
+    ],
+    "actors": [
+     "小罗伯特·唐尼",
+     "克里斯·埃文斯",
+     "克里斯·海姆斯沃斯",
+     "马克·鲁法洛",
+     "斯嘉丽·约翰逊",
+     "杰瑞米·雷纳"
+    ]
+   }
   },
   "1295124": {
    "id": "1295124",
@@ -7776,7 +10552,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.jpg",
    "intro": "1993-11-30(华盛顿首映) / 1994-02-04(美国) / 连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 / 卡罗琳·古多尔 / 乔纳森·萨加尔 / 艾伯丝·戴维兹 / 马尔戈萨·格贝尔 / 马克·伊瓦涅 / 碧翠斯·马科拉 / 安德烈·瑟韦林 / 美国 / 史蒂文·斯皮尔伯格 / 195分钟 / 辛德勒的名单 / 剧情 / 历史 / 战争 / 托马斯·肯尼利 Thomas Keneally / 斯蒂文·泽里安 Steven Zaillian / 英语 / 希伯来语 / 德语 / 波兰语",
-   "orig": "Schindler's List"
+   "orig": "Schindler's List",
+   "detail": {
+    "title": "辛德勒的名单",
+    "original_title": "Schindler's List",
+    "year": 1993,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "195分钟"
+    ],
+    "genres": [
+     "剧情",
+     "历史",
+     "战争"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "希伯来语",
+     "德语",
+     "波兰语"
+    ],
+    "directors": [
+     "史蒂文·斯皮尔伯格"
+    ],
+    "actors": [
+     "连姆·尼森",
+     "本·金斯利",
+     "拉尔夫·费因斯",
+     "卡罗琳·古多尔",
+     "乔纳森·萨加尔",
+     "艾伯丝·戴维兹"
+    ]
+   }
   },
   "1295038": {
    "id": "1295038",
@@ -7786,7 +10597,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.jpg",
    "intro": "2001-11-04(英国首映) / 2001-11-16(美国) / 2002-01-26(中国大陆) / 2020-08-14(中国大陆重映) / 2024-10-11(中国大陆重映) / 丹尼尔·雷德克里夫 / 艾玛·沃森 / 鲁伯特·格林特 / 艾伦·瑞克曼 / 玛吉·史密斯 / 汤姆·费尔顿 / 伊恩·哈特 / 理查德·哈里斯 / 约翰·赫特 / 罗彼·考特拉尼 / 美国 / 英国 / www.harrypotter.co.uk / 克里斯·哥伦布 / 152分钟 / 159分钟(加长版) / 哈利·波特与魔法石 / 奇幻 / 冒险 / Steve Kloves / J.K. Rowling / 英语",
-   "orig": "Harry Potter and the Sorcerer's Stone"
+   "orig": "Harry Potter and the Sorcerer's Stone",
+   "detail": {
+    "title": "哈利·波特与魔法石",
+    "original_title": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "152分钟"
+    ],
+    "genres": [
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国",
+     "英国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "克里斯·哥伦布"
+    ],
+    "actors": [
+     "丹尼尔·雷德克里夫",
+     "艾玛·沃森",
+     "鲁伯特·格林特",
+     "艾伦·瑞克曼",
+     "玛吉·史密斯",
+     "汤姆·费尔顿"
+    ]
+   }
   },
   "25986180": {
    "id": "25986180",
@@ -7796,7 +10639,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2360940399.jpg",
    "intro": "2016-05-13(戛纳电影节) / 2016-07-20(韩国) / 孔刘 / 郑裕美 / 马东锡 / 金秀安 / 金义城 / 崔宇植 / 安昭熙 / 崔奎华 / 郑锡勇 / 芮秀贞 / 韩国 / 延尚昊 / 118分钟 / 釜山行 / 动作 / 惊悚 / 灾难 / 延尚昊 Sang-ho Yeon / 韩语",
-   "orig": "부산행"
+   "orig": "부산행",
+   "detail": {
+    "title": "釜山行",
+    "original_title": "부산행",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "118分钟"
+    ],
+    "genres": [
+     "动作",
+     "惊悚",
+     "灾难"
+    ],
+    "countries": [
+     "韩国"
+    ],
+    "languages": [
+     "韩语"
+    ],
+    "directors": [
+     "延尚昊"
+    ],
+    "actors": [
+     "孔刘",
+     "郑裕美",
+     "马东锡",
+     "金秀安",
+     "金义城",
+     "崔宇植"
+    ]
+   }
   },
   "1299398": {
    "id": "1299398",
@@ -7806,7 +10681,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg",
    "intro": "1995-01-21(中国香港) / 2014-10-24(中国大陆) / 周星驰 / 吴孟达 / 罗家英 / 蓝洁瑛 / 莫文蔚 / 江约诚 / 陆树铭 / 刘镇伟 / 朱茵 / 李健仁 / 中国香港 / 中国大陆 / 刘镇伟 / 88分钟 / 大话西游之月光宝盒 / 喜剧 / 爱情 / 奇幻 / 古装 / 刘镇伟 Jeffrey Lau / 吴承恩 Cheng'en Wu / 粤语 / 汉语普通话",
-   "orig": "西遊記第壹佰零壹回之月光寶盒"
+   "orig": "西遊記第壹佰零壹回之月光寶盒",
+   "detail": {
+    "title": "大话西游之月光宝盒",
+    "original_title": "西遊記第壹佰零壹回之月光寶盒",
+    "year": 1995,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "88分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情",
+     "奇幻",
+     "古装"
+    ],
+    "countries": [
+     "中国香港",
+     "中国大陆"
+    ],
+    "languages": [
+     "粤语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "刘镇伟"
+    ],
+    "actors": [
+     "周星驰",
+     "吴孟达",
+     "罗家英",
+     "蓝洁瑛",
+     "莫文蔚",
+     "江约诚"
+    ]
+   }
   },
   "26580232": {
    "id": "26580232",
@@ -7816,7 +10726,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2498971355.jpg",
    "intro": "2016-09-23(奇幻电影节) / 2017-01-06(西班牙) / 2017-09-15(中国大陆) / 马里奥·卡萨斯 / 阿娜·瓦格纳 / 何塞·科罗纳多 / 巴巴拉·莱涅 / 弗兰塞斯克·奥雷利亚 / 帕科·图斯 / 大卫·塞尔瓦斯 / 伊尼戈·加斯特西 / 圣·耶拉莫斯 / 马内尔·杜维索 / 西班牙 / 奥里奥尔·保罗 / 106分钟 / 看不见的客人 / 剧情 / 犯罪 / 悬疑 / 惊悚 / 奥里奥尔·保罗 Oriol Paulo / 西班牙语",
-   "orig": "Contratiempo"
+   "orig": "Contratiempo",
+   "detail": {
+    "title": "看不见的客人",
+    "original_title": "Contratiempo",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "106分钟"
+    ],
+    "genres": [
+     "剧情",
+     "悬疑",
+     "惊悚",
+     "犯罪"
+    ],
+    "countries": [
+     "西班牙"
+    ],
+    "languages": [
+     "西班牙语"
+    ],
+    "directors": [
+     "奥里奥尔·保罗"
+    ],
+    "actors": [
+     "马里奥·卡萨斯",
+     "阿娜·瓦格纳",
+     "何塞·科罗纳多",
+     "巴巴拉·莱涅",
+     "弗兰塞斯克·奥雷利亚",
+     "帕科·图斯"
+    ]
+   }
   },
   "1291560": {
    "id": "1291560",
@@ -7826,7 +10769,39 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.jpg",
    "intro": "1988-04-16(日本) / 2018-12-14(中国大陆) / 日高范子 / 坂本千夏 / 糸井重里 / 岛本须美 / 北林谷荣 / 高木均 / 雨笠利幸 / 丸山裕子 / 广濑正志 / 鹫尾真知子 / 日本 / 宫崎骏 / 86分钟 / 龙猫 / 动画 / 奇幻 / 冒险 / 宫崎骏 Hayao Miyazaki / 日语",
-   "orig": "となりのトトロ"
+   "orig": "となりのトトロ",
+   "detail": {
+    "title": "龙猫",
+    "original_title": "となりのトトロ",
+    "year": 1988,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "86分钟"
+    ],
+    "genres": [
+     "动画",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "日本"
+    ],
+    "languages": [
+     "日语"
+    ],
+    "directors": [
+     "宫崎骏"
+    ],
+    "actors": [
+     "日高范子",
+     "坂本千夏",
+     "糸井重里",
+     "岛本须美",
+     "北林谷荣",
+     "高木均"
+    ]
+   }
   },
   "1291549": {
    "id": "1291549",
@@ -7836,7 +10811,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2884280708.jpg",
    "intro": "2004-03-17(法国) / 2004-10-16(中国大陆) / 2022-12-02(中国大陆重映) / 让-巴蒂斯特·莫尼耶 / 热拉尔·朱尼奥 / 弗朗索瓦·贝莱昂 / 凯德·麦拉德 / 让-保罗·博奈雷 / 雅克·贝汉 / 玛丽·布奈尔 / 马克桑斯·贝汉 / 格雷戈里·加迪诺尔 / 托马斯·布伦门塔尔 / 法国 / 瑞士 / 德国 / 克里斯托夫·巴哈蒂 / 97分钟 / 放牛班的春天 / 剧情 / 音乐 / 乔治·沙普罗 Georges Chaperot / 勒·惠勒 René Wheeler / 诺埃-诺尔 Noël-Noël / 克里斯托夫·巴拉蒂 Christophe Barratier / 菲利普·洛佩斯-屈瓦尔 Philippe Lopes-Curval / 法语",
-   "orig": "Les choristes"
+   "orig": "Les choristes",
+   "detail": {
+    "title": "放牛班的春天",
+    "original_title": "Les choristes",
+    "year": 2004,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "97分钟"
+    ],
+    "genres": [
+     "剧情",
+     "音乐"
+    ],
+    "countries": [
+     "法国",
+     "瑞士",
+     "德国"
+    ],
+    "languages": [
+     "法语"
+    ],
+    "directors": [
+     "克里斯托夫·巴哈蒂"
+    ],
+    "actors": [
+     "让-巴蒂斯特·莫尼耶",
+     "热拉尔·朱尼奥",
+     "弗朗索瓦·贝莱昂",
+     "凯德·麦拉德",
+     "让-保罗·博奈雷",
+     "雅克·贝汉"
+    ]
+   }
   },
   "2131459": {
    "id": "2131459",
@@ -7846,7 +10854,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934742160.jpg",
    "intro": "2008-06-27(美国) / 2026-08-19(中国大陆) / 本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗 / MacInTalk / 约翰·拉森贝格 / 凯茜·纳基麦 / 泰迪·牛顿 / 鲍伯·伯根 / 美国 / 安德鲁·斯坦顿 / 98分钟 / 机器人总动员 / 科幻 / 动画 / 冒险 / 安德鲁·斯坦顿 Andrew Stanton / 吉姆·里尔顿 Jim Reardon / 彼特·道格特 Pete Docter / 英语",
-   "orig": "WALL·E"
+   "orig": "WALL·E",
+   "detail": {
+    "title": "机器人总动员",
+    "original_title": "WALL·E",
+    "year": 2008,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "98分钟"
+    ],
+    "genres": [
+     "科幻",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "安德鲁·斯坦顿"
+    ],
+    "actors": [
+     "本·贝尔特",
+     "艾丽莎·奈特",
+     "杰夫·格尔林",
+     "佛莱德·威拉特",
+     "西格妮·韦弗",
+     "MacInTalk"
+    ]
+   }
   },
   "1292063": {
    "id": "1292063",
@@ -7856,7 +10896,42 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.jpg",
    "intro": "1997-12-20(意大利) / 2020-01-03(中国大陆) / 罗伯托·贝尼尼 / 尼可莱塔·布拉斯基 / 乔治·坎塔里尼 / 朱斯蒂诺·杜拉诺 / 赛尔乔·比尼·布斯特里克 / 玛丽萨·帕雷德斯 / 霍斯特·布赫霍尔茨 / 利迪娅·阿方西 / 朱利亚娜·洛约迪切 / 亚美利哥·丰塔尼 / 意大利 / 罗伯托·贝尼尼 / 116分钟(国际版) / 125分钟 / 美丽人生 / 剧情 / 喜剧 / 爱情 / 战争 / 温琴佐·切拉米 Vincenzo Cerami / 罗伯托·贝尼尼 Roberto Benigni / 意大利语 / 德语 / 英语",
-   "orig": "La vita è bella"
+   "orig": "La vita è bella",
+   "detail": {
+    "title": "美丽人生",
+    "original_title": "La vita è bella",
+    "year": 1997,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "116分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情",
+     "战争"
+    ],
+    "countries": [
+     "意大利"
+    ],
+    "languages": [
+     "意大利语",
+     "德语",
+     "英语"
+    ],
+    "directors": [
+     "罗伯托·贝尼尼"
+    ],
+    "actors": [
+     "罗伯托·贝尼尼",
+     "尼可莱塔·布拉斯基",
+     "乔治·坎塔里尼",
+     "朱斯蒂诺·杜拉诺",
+     "赛尔乔·比尼·布斯特里克",
+     "玛丽萨·帕雷德斯"
+    ]
+   }
   },
   "1307914": {
    "id": "1307914",
@@ -7866,7 +10941,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597979873.jpg",
    "intro": "2002-12-12(中国香港) / 2003-09-05(中国大陆) / 刘德华 / 梁朝伟 / 黄秋生 / 曾志伟 / 陈慧琳 / 郑秀文 / 陈冠希 / 余文乐 / 萧亚轩 / 林家栋 / 中国香港 / 刘伟强 / 麦兆辉 / 101分钟 / 97分钟(导演剪辑版) / 无间道 / 剧情 / 犯罪 / 惊悚 / 麦兆辉 / 庄文强 / 粤语",
-   "orig": "無間道"
+   "orig": "無間道",
+   "detail": {
+    "title": "无间道",
+    "original_title": "無間道",
+    "year": 2002,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "101分钟"
+    ],
+    "genres": [
+     "剧情",
+     "惊悚",
+     "犯罪"
+    ],
+    "countries": [
+     "中国香港"
+    ],
+    "languages": [
+     "粤语"
+    ],
+    "directors": [
+     "刘伟强",
+     "麦兆辉"
+    ],
+    "actors": [
+     "刘德华",
+     "梁朝伟",
+     "黄秋生",
+     "曾志伟",
+     "陈慧琳",
+     "郑秀文"
+    ]
+   }
   },
   "1929463": {
    "id": "1929463",
@@ -7876,7 +10984,47 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1784592701.jpg",
    "intro": "2012-09-28(纽约电影节) / 2012-11-21(美国) / 2012-11-22(中国大陆) / 苏拉·沙玛 / 伊尔凡·可汗 / 拉菲·斯波 / 阿迪勒·侯赛因 / 塔布 / 阿尤什·坦东 / 加塔姆·贝鲁尔 / 阿彦·汗 / 穆德·阿巴斯·卡勒里 / 维比什·希瓦库玛 / 美国 / 中国台湾 / 英国 / 加拿大 / www.lifeofpimovie.com / 李安 / 127分钟 / 少年派的奇幻漂流 / 剧情 / 奇幻 / 冒险 / 扬·马特尔 Yann Martel / 大卫·麦基 David Magee / 英语 / 泰米尔语 / 法语 / 日语 / 印地语 / 汉语普通话",
-   "orig": "Life of Pi"
+   "orig": "Life of Pi",
+   "detail": {
+    "title": "少年派的奇幻漂流",
+    "original_title": "Life of Pi",
+    "year": 2012,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "127分钟"
+    ],
+    "genres": [
+     "剧情",
+     "奇幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国",
+     "中国台湾",
+     "英国",
+     "加拿大"
+    ],
+    "languages": [
+     "英语",
+     "泰米尔语",
+     "法语",
+     "日语",
+     "印地语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "李安"
+    ],
+    "actors": [
+     "苏拉·沙玛",
+     "伊尔凡·可汗",
+     "拉菲·斯波",
+     "阿迪勒·侯赛因",
+     "塔布",
+     "阿尤什·坦东"
+    ]
+   }
   },
   "4920389": {
    "id": "4920389",
@@ -7886,7 +11034,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516578307.jpg",
    "intro": "2018-03-11(西南偏南电影节) / 2018-03-29(美国) / 2018-03-30(中国大陆) / 泰伊·谢里丹 / 奥利维亚·库克 / 本·门德尔森 / 马克·里朗斯 / 丽娜·维特 / 森崎温 / 赵家正 / 西蒙·佩吉 / T·J·米勒 / 汉娜·乔恩-卡门 / 美国 / 史蒂文·斯皮尔伯格 / 140分钟 / 头号玩家 / 动作 / 科幻 / 冒险 / 扎克·佩恩 Zak Penn / 恩斯特·克莱恩 Ernest Cline / 英语 / 日语 / 汉语普通话",
-   "orig": "Ready Player One"
+   "orig": "Ready Player One",
+   "detail": {
+    "title": "头号玩家",
+    "original_title": "Ready Player One",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "140分钟"
+    ],
+    "genres": [
+     "动作",
+     "科幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "日语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "史蒂文·斯皮尔伯格"
+    ],
+    "actors": [
+     "泰伊·谢里丹",
+     "奥利维亚·库克",
+     "本·门德尔森",
+     "马克·里朗斯",
+     "丽娜·维特",
+     "森崎温"
+    ]
+   }
   },
   "1652587": {
    "id": "1652587",
@@ -7896,7 +11078,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2180085848.jpg",
    "intro": "2009-12-18(美国) / 2010-01-04(中国大陆) / 2021-03-12(中国大陆重映) / 2022-12-12(中国大陆重映) / 萨姆·沃辛顿 / 佐伊·索尔达娜 / 西格妮·韦弗 / 史蒂芬·朗 / 米歇尔·罗德里格兹 / 吉奥瓦尼·瑞比西 / 乔·大卫·摩尔  / 希·庞德 / 韦斯·斯塔迪 / 拉兹·阿隆索 / 美国 / 詹姆斯·卡梅隆 / 162分钟 / 178分钟(加长版) / 阿凡达 / 动作 / 科幻 / 冒险 / 詹姆斯·卡梅隆 James Cameron / 英语 / 西班牙语",
-   "orig": "Avatar"
+   "orig": "Avatar",
+   "detail": {
+    "title": "阿凡达",
+    "original_title": "Avatar",
+    "year": 2009,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "162分钟"
+    ],
+    "genres": [
+     "动作",
+     "科幻",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "西班牙语"
+    ],
+    "directors": [
+     "詹姆斯·卡梅隆"
+    ],
+    "actors": [
+     "萨姆·沃辛顿",
+     "佐伊·索尔达娜",
+     "西格妮·韦弗",
+     "史蒂芬·朗",
+     "米歇尔·罗德里格兹",
+     "吉奥瓦尼·瑞比西"
+    ]
+   }
   },
   "34841067": {
    "id": "34841067",
@@ -7906,7 +11121,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2629056068.jpg",
    "intro": "2021-02-12(中国大陆) / 贾玲 / 张小斐 / 沈腾 / 陈赫 / 刘佳 / 丁嘉丽 / 王琳 / 杜源 / 何翯 / 何欢 / 中国大陆 / 贾玲 / 128分钟 / 剧情 / 喜剧 / 奇幻 / 贾玲 Ling Jia / 孙集斌 Jibin Sun / 王宇 Yu Wang / 刘宏禄 Honglu Liu / 卜钰 Yu Bu / 郭宇鹏 Yupeng Guo / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "你好，李焕英",
+    "original_title": "",
+    "year": 2021,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "128分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "贾玲"
+    ],
+    "actors": [
+     "贾玲",
+     "张小斐",
+     "沈腾",
+     "陈赫",
+     "刘佳",
+     "丁嘉丽"
+    ]
+   }
   },
   "3011091": {
    "id": "3011091",
@@ -7916,7 +11163,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.jpg",
    "intro": "2009-06-13(西雅图电影节) / 2010-03-12(英国) / 理查·基尔 / 莎拉·罗默尔 / 琼·艾伦 / 罗比·萨布莱特 / 艾瑞克·阿瓦利 / 田川洋行 / 杰森·亚历山大 / 罗伯特·卡普荣 / 达文尼亚·麦克法登 / 贝茨·怀尔德 / 美国 / 英国 / 拉斯·霍尔斯道姆 / 93分钟 / 忠犬八公的故事 / 剧情 / Stephen P. Lindsey / 新藤兼人 Kaneto Shindô / 英语 / 日语",
-   "orig": "Hachi: A Dog's Tale"
+   "orig": "Hachi: A Dog's Tale",
+   "detail": {
+    "title": "忠犬八公的故事",
+    "original_title": "Hachi: A Dog's Tale",
+    "year": 2009,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "93分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "美国",
+     "英国"
+    ],
+    "languages": [
+     "英语",
+     "日语"
+    ],
+    "directors": [
+     "拉斯·霍尔斯道姆"
+    ],
+    "actors": [
+     "理查·基尔",
+     "莎拉·罗默尔",
+     "琼·艾伦",
+     "罗比·萨布莱特",
+     "艾瑞克·阿瓦利",
+     "田川洋行"
+    ]
+   }
   },
   "30166972": {
    "id": "30166972",
@@ -7926,7 +11205,40 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2572166063.jpg",
    "intro": "2019-10-25(中国大陆) / 周冬雨 / 易烊千玺 / 尹昉 / 周也 / 吴越 / 黄觉 / 张艺凡 / 张耀 / 张歆怡 / 赵润南 / 中国大陆 / 中国香港 / 曾国祥 / 135分钟 / 剧情 / 爱情 / 犯罪 / 林咏琛 Lam Wing Sum / 李媛 Yuan Li / 许伊萌 Yimeng Xu / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "少年的你",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "135分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情",
+     "犯罪"
+    ],
+    "countries": [
+     "中国大陆",
+     "中国香港"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "曾国祥"
+    ],
+    "actors": [
+     "周冬雨",
+     "易烊千玺",
+     "尹昉",
+     "周也",
+     "吴越",
+     "黄觉"
+    ]
+   }
   },
   "1849031": {
    "id": "1849031",
@@ -7936,7 +11248,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2220721286.jpg",
    "intro": "2006-12-15(美国) / 2008-01-17(中国大陆) / 2020-07-20(中国大陆重映) / 威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 / 布莱恩·豪威  / 詹姆斯·凯伦 / 丹·卡斯泰兰尼塔 / 柯特·富勒 / 塔卡尤·费舍尔 / 凯文·韦斯特 / 乔治·张 / 美国 / 加布里埃莱·穆奇诺 / 117分钟 / 当幸福来敲门 / 剧情 / 传记 / 家庭 / 史帝文·康拉德 Steve Conrad / 英语 / 粤语",
-   "orig": "The Pursuit of Happyness"
+   "orig": "The Pursuit of Happyness",
+   "detail": {
+    "title": "当幸福来敲门",
+    "original_title": "The Pursuit of Happyness",
+    "year": 2006,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "117分钟"
+    ],
+    "genres": [
+     "剧情",
+     "家庭",
+     "传记"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "粤语"
+    ],
+    "directors": [
+     "加布里埃莱·穆奇诺"
+    ],
+    "actors": [
+     "威尔·史密斯",
+     "贾登·史密斯",
+     "坦迪·牛顿",
+     "布莱恩·豪威",
+     "詹姆斯·凯伦",
+     "丹·卡斯泰兰尼塔"
+    ]
+   }
   },
   "1292213": {
    "id": "1292213",
@@ -7946,7 +11291,42 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg",
    "intro": "1995-02-04(中国香港) / 2014-10-24(中国大陆) / 2017-04-13(中国大陆重映) / 周星驰 / 吴孟达 / 朱茵 / 蔡少芬 / 蓝洁瑛 / 莫文蔚 / 罗家英 / 刘镇伟 / 陆树铭 / 李健仁 / 中国香港 / 中国大陆 / 刘镇伟 / 95分钟 / 110分钟(重映版) / 大话西游之大圣娶亲 / 喜剧 / 爱情 / 奇幻 / 古装 / 刘镇伟 Jeffrey Lau / 吴承恩 Cheng'en Wu / 粤语 / 汉语普通话",
-   "orig": "西遊記大結局之仙履奇緣"
+   "orig": "西遊記大結局之仙履奇緣",
+   "detail": {
+    "title": "大话西游之大圣娶亲",
+    "original_title": "西遊記大結局之仙履奇緣",
+    "year": 1995,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "95分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情",
+     "奇幻",
+     "古装"
+    ],
+    "countries": [
+     "中国香港",
+     "中国大陆"
+    ],
+    "languages": [
+     "粤语",
+     "汉语普通话"
+    ],
+    "directors": [
+     "刘镇伟"
+    ],
+    "actors": [
+     "周星驰",
+     "吴孟达",
+     "朱茵",
+     "蔡少芬",
+     "蓝洁瑛",
+     "莫文蔚"
+    ]
+   }
   },
   "26387939": {
    "id": "26387939",
@@ -7956,7 +11336,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.jpg",
    "intro": "2016-12-23(印度) / 2017-05-05(中国大陆) / 阿米尔·汗 / 法缇玛·萨那·纱卡 / 桑亚·玛荷塔 / 阿帕尔夏克提·库拉那 / 沙克希·坦沃 / 塞伊拉·沃西 / 苏哈妮·巴特纳格尔 / 里特维克·萨霍里 / 吉里什·库卡尼 / 维万·巴特那 / 印度 / 涅提·蒂瓦里 / 161分钟(印度) / 140分钟(中国大陆) / 摔跤吧！爸爸 / 剧情 / 传记 / 运动 / 家庭 / 比于什·古普塔 Piyush Gupta / 施热亚·简 Shreyas Jain / 尼基尔·麦罗特拉 Nikhil Mehrotra / 涅提·蒂瓦里 Nitesh Tiwari / 印地语 / 英语",
-   "orig": "Dangal"
+   "orig": "Dangal",
+   "detail": {
+    "title": "摔跤吧！爸爸",
+    "original_title": "Dangal",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "161分钟"
+    ],
+    "genres": [
+     "剧情",
+     "家庭",
+     "传记",
+     "运动"
+    ],
+    "countries": [
+     "印度"
+    ],
+    "languages": [
+     "印地语",
+     "英语"
+    ],
+    "directors": [
+     "涅提·蒂瓦里"
+    ],
+    "actors": [
+     "阿米尔·汗",
+     "法缇玛·萨那·纱卡",
+     "桑亚·玛荷塔",
+     "阿帕尔夏克提·库拉那",
+     "沙克希·坦沃",
+     "塞伊拉·沃西"
+    ]
+   }
   },
   "27060077": {
    "id": "27060077",
@@ -7966,7 +11380,44 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.jpg",
    "intro": "2018-09-11(多伦多电影节) / 2018-11-16(美国) / 2019-03-01(中国大陆) / 维果·莫腾森 / 马赫沙拉·阿里 / 琳达·卡德里尼 / 塞巴斯蒂安·马尼斯科 / 迪米特·D·马里诺夫 / 迈克·哈顿 / P·J·伯恩 / 乔·柯蒂斯 / 玛姬·尼克松 / 冯·刘易斯 / 美国 / 中国大陆 / 彼得·法雷里 / 130分钟 / 绿皮书 / 剧情 / 喜剧 / 传记 / 音乐 / 尼克·瓦莱隆加 Nick Vallelonga / 布莱恩·海耶斯·库瑞 Brian Hayes Currie / 彼得·法雷里 Peter Farrelly / 英语 / 意大利语 / 俄语 / 德语",
-   "orig": "Green Book"
+   "orig": "Green Book",
+   "detail": {
+    "title": "绿皮书",
+    "original_title": "Green Book",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "130分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "音乐",
+     "传记"
+    ],
+    "countries": [
+     "美国",
+     "中国大陆"
+    ],
+    "languages": [
+     "英语",
+     "意大利语",
+     "俄语",
+     "德语"
+    ],
+    "directors": [
+     "彼得·法雷里"
+    ],
+    "actors": [
+     "维果·莫腾森",
+     "马赫沙拉·阿里",
+     "琳达·卡德里尼",
+     "塞巴斯蒂安·马尼斯科",
+     "迪米特·D·马里诺夫",
+     "迈克·哈顿"
+    ]
+   }
   },
   "20495023": {
    "id": "20495023",
@@ -7976,7 +11427,42 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg",
    "intro": "2017-11-22(美国) / 2017-11-24(中国大陆) / 2020-07-20(中国大陆重映) / 安东尼·冈萨雷斯 / 盖尔·加西亚·贝纳尔 / 本杰明·布拉特 / 阿兰娜·乌巴赫 / 芮妮·维克托 / 杰米·卡米尔 / 阿方索·阿雷奥 / 赫伯特·西古恩萨 / 加布里埃尔·伊格莱西亚斯 / 隆巴多·博伊尔 / 美国 / 李·昂克里奇 / 阿德里安·莫利纳 / 105分钟 / 寻梦环游记 / 喜剧 / 动画 / 奇幻 / 音乐 / 阿德里安·莫利纳 Adrian Molina / 马修·奥尔德里奇 Matthew Aldrich / 李·昂克里奇 Lee Unkrich / 詹森·卡茨 Jason Katz / 英语 / 西班牙语",
-   "orig": "Coco"
+   "orig": "Coco",
+   "detail": {
+    "title": "寻梦环游记",
+    "original_title": "Coco",
+    "year": 2017,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "105分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动画",
+     "音乐",
+     "奇幻"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "西班牙语"
+    ],
+    "directors": [
+     "李·昂克里奇",
+     "阿德里安·莫利纳"
+    ],
+    "actors": [
+     "安东尼·冈萨雷斯",
+     "盖尔·加西亚·贝纳尔",
+     "本杰明·布拉特",
+     "阿兰娜·乌巴赫",
+     "芮妮·维克托",
+     "杰米·卡米尔"
+    ]
+   }
   },
   "1292064": {
    "id": "1292064",
@@ -7986,7 +11472,37 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.jpg",
    "intro": "1998-06-05(美国) / 金·凯瑞 / 劳拉·琳妮 / 艾德·哈里斯 / 诺亚·艾默里奇 / 娜塔莎·麦克艾霍恩 / 保罗·吉亚玛提 / 彼得·克劳斯 / 霍兰德·泰勒 / 菲利普·贝克·霍尔 / 哈里·谢尔 / 美国 / 彼得·威尔 / 103分钟 / 楚门的世界 / 剧情 / 科幻 / 安德鲁·尼科尔 Andrew Niccol / 英语",
-   "orig": "The Truman Show"
+   "orig": "The Truman Show",
+   "detail": {
+    "title": "楚门的世界",
+    "original_title": "The Truman Show",
+    "year": 1998,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "103分钟"
+    ],
+    "genres": [
+     "剧情",
+     "科幻"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "彼得·威尔"
+    ],
+    "actors": [
+     "金·凯瑞",
+     "劳拉·琳妮",
+     "艾德·哈里斯",
+     "诺亚·艾默里奇",
+     "娜塔莎·麦克艾霍恩"
+    ]
+   }
   },
   "1292001": {
    "id": "1292001",
@@ -7996,7 +11512,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.jpg",
    "intro": "1998-10-28(意大利) / 2019-11-15(中国大陆) / 2024-11-15(中国大陆重映) / 2026-11-13(中国大陆重映) / 蒂姆·罗斯 / 普路特·泰勒·文斯 / 比尔·努恩 / 克兰伦斯·威廉姆斯三世 / 梅兰尼·蒂埃里 / 皮特·沃恩 / 尼尔·奥布赖恩 / 阿尔贝托·巴斯克斯 / 加布里埃莱·拉维亚 / 科里·巴克 / 意大利 / 朱塞佩·托纳多雷 / 120分钟(国际版) / 170分钟(加长版) / 126分钟 / 海上钢琴师 / 剧情 / 音乐 / 亚利桑德罗·巴里克 Alessandro Baricco / 朱塞佩·托纳多雷 Giuseppe Tornatore / 英语 / 法语 / 意大利语",
-   "orig": "La leggenda del pianista sull'oceano"
+   "orig": "La leggenda del pianista sull'oceano",
+   "detail": {
+    "title": "海上钢琴师",
+    "original_title": "La leggenda del pianista sull'oceano",
+    "year": 1998,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "120分钟"
+    ],
+    "genres": [
+     "剧情",
+     "音乐"
+    ],
+    "countries": [
+     "意大利"
+    ],
+    "languages": [
+     "英语",
+     "法语",
+     "意大利语"
+    ],
+    "directors": [
+     "朱塞佩·托纳多雷"
+    ],
+    "actors": [
+     "蒂姆·罗斯",
+     "普路特·泰勒·文斯",
+     "比尔·努恩",
+     "克兰伦斯·威廉姆斯三世",
+     "梅兰尼·蒂埃里",
+     "皮特·沃恩"
+    ]
+   }
   },
   "3319755": {
    "id": "3319755",
@@ -8006,7 +11555,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p501177648.jpg",
    "intro": "2010-07-26(好莱坞首映) / 2010-09-10(美国) / 玛德琳·卡罗尔 / 卡兰·麦克奥利菲 / 瑞贝卡·德·莫妮 / 安东尼·爱德华兹 / 约翰·马奥尼 / 佩内洛普·安·米勒 / 艾丹·奎因 / 凯文·韦斯曼 / 摩根·莉莉 / 瑞安·克茨纳 / 美国 / 罗伯·莱纳 / 90分钟 / 怦然心动 / 剧情 / 喜剧 / 爱情 / 罗伯·莱纳 Rob Reiner / 安德鲁·沙因曼 Andrew Scheinman / 文德琳·范·德拉安南 Wendelin Van Draanen / 英语",
-   "orig": "Flipped"
+   "orig": "Flipped",
+   "detail": {
+    "title": "怦然心动",
+    "original_title": "Flipped",
+    "year": 2010,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "90分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "罗伯·莱纳"
+    ],
+    "actors": [
+     "玛德琳·卡罗尔",
+     "卡兰·麦克奥利菲",
+     "瑞贝卡·德·莫妮",
+     "安东尼·爱德华兹",
+     "约翰·马奥尼",
+     "佩内洛普·安·米勒"
+    ]
+   }
   },
   "26794435": {
    "id": "26794435",
@@ -8016,7 +11597,40 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.jpg",
    "intro": "2019-07-13(大规模点映) / 2019-07-26(中国大陆) / 吕艳婷 / 囧森瑟夫 / 瀚墨 / 陈浩 / 绿绮 / 张珈铭 / 杨卫 / 何禹祥 / 任俊鹏 / 杏林儿 / 中国大陆 / 饺子 / 110分钟 / 剧情 / 喜剧 / 动画 / 奇幻 / 饺子 Yu Yang / 易巧 Qiao Yi / 魏芸芸 Yunyun Wei / 汉语普通话",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "哪吒之魔童降世",
+    "original_title": "",
+    "year": 2019,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "110分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "动画",
+     "奇幻"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "饺子"
+    ],
+    "actors": [
+     "吕艳婷",
+     "囧森瑟夫",
+     "瀚墨",
+     "陈浩",
+     "绿绮",
+     "张珈铭"
+    ]
+   }
   },
   "3793023": {
    "id": "3793023",
@@ -8026,7 +11640,42 @@
    "comment": "",
    "poster_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.jpg",
    "intro": "2009-12-25(印度) / 2011-12-08(中国大陆) / 阿米尔·汗 / 卡琳娜·卡普尔 / 马达范 / 沙尔曼·乔希 / 奥米·瓦依达 / 博曼·伊拉尼 / 莫娜·辛格 / 拉杰夫·拉宾德拉纳特安 / Rakesh Sharma / Atul Tiwari / 印度 / 拉吉库马尔·希拉尼 / 171分钟(印度) / 三傻大闹宝莱坞 / 剧情 / 喜剧 / 爱情 / 歌舞 / Vidhu Vinod Chopra / 拉库马·希拉尼 Rajkumar Hirani / 阿西奇·乔希 Abhijit Joshi / 印地语 / 乌尔都语 / 英语",
-   "orig": "3 Idiots"
+   "orig": "3 Idiots",
+   "detail": {
+    "title": "三傻大闹宝莱坞",
+    "original_title": "3 Idiots",
+    "year": 2009,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "171分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧",
+     "爱情",
+     "歌舞"
+    ],
+    "countries": [
+     "印度"
+    ],
+    "languages": [
+     "印地语",
+     "乌尔都语",
+     "英语"
+    ],
+    "directors": [
+     "拉吉库马尔·希拉尼"
+    ],
+    "actors": [
+     "阿米尔·汗",
+     "卡琳娜·卡普尔",
+     "马达范",
+     "沙尔曼·乔希",
+     "奥米·瓦依达",
+     "博曼·伊拉尼"
+    ]
+   }
   },
   "25662329": {
    "id": "25662329",
@@ -8036,7 +11685,42 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.jpg",
    "intro": "2016-03-04(中国大陆) / 2016-03-04(美国) / 2020-07-24(中国大陆重映) / 2025-08-08(中国大陆重映) / 金妮弗·古德温 / 杰森·贝特曼 / 伊德瑞斯·艾尔巴 / 珍妮·斯蕾特 / 内特·托伦斯 / 邦妮·亨特 / 唐·雷克 / 汤米·钟 / J·K·西蒙斯 / 奥克塔维亚·斯宾瑟 / 美国 / 拜伦·霍华德 / 瑞奇·摩尔 / 杰拉德·布什 / 109分钟(中国大陆) / 108分钟 / 疯狂动物城 / 喜剧 / 动画 / 冒险 / 拜伦·霍华德 Byron Howard / 瑞奇·摩尔 Rich Moore / 杰拉德·布什 Jared Bush / 吉姆·里尔顿 Jim Reardon / 乔西·特立尼达 Josie Trinidad / 菲尔·约翰斯顿 Phil Johnston / 珍妮弗·李 Jennifer Lee / 英语 / 挪威语",
-   "orig": "Zootopia"
+   "orig": "Zootopia",
+   "detail": {
+    "title": "疯狂动物城",
+    "original_title": "Zootopia",
+    "year": 2016,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "109分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "动画",
+     "冒险"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "挪威语"
+    ],
+    "directors": [
+     "拜伦·霍华德",
+     "瑞奇·摩尔",
+     "杰拉德·布什"
+    ],
+    "actors": [
+     "金妮弗·古德温",
+     "杰森·贝特曼",
+     "伊德瑞斯·艾尔巴",
+     "珍妮·斯蕾特",
+     "内特·托伦斯",
+     "邦妮·亨特"
+    ]
+   }
   },
   "3541415": {
    "id": "3541415",
@@ -8046,7 +11730,43 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.jpg",
    "intro": "2010-07-16(美国) / 2010-09-01(中国大陆) / 2020-08-28(中国大陆重映) / 莱昂纳多·迪卡普里奥 / 约瑟夫·高登-莱维特 / 艾利奥特·佩吉 / 汤姆·哈迪 / 渡边谦 / 迪利普·劳 / 基里安·墨菲 / 汤姆·贝伦杰 / 玛丽昂·歌迪亚 / 皮特·波斯尔思韦特 / 美国 / 英国 / 克里斯托弗·诺兰 / 148分钟 / 盗梦空间 / 剧情 / 科幻 / 悬疑 / 冒险 / 克里斯托弗·诺兰 Christopher Nolan / 英语 / 日语 / 法语",
-   "orig": "Inception"
+   "orig": "Inception",
+   "detail": {
+    "title": "盗梦空间",
+    "original_title": "Inception",
+    "year": 2010,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "148分钟"
+    ],
+    "genres": [
+     "剧情",
+     "科幻",
+     "悬疑",
+     "冒险"
+    ],
+    "countries": [
+     "美国",
+     "英国"
+    ],
+    "languages": [
+     "英语",
+     "日语",
+     "法语"
+    ],
+    "directors": [
+     "克里斯托弗·诺兰"
+    ],
+    "actors": [
+     "莱昂纳多·迪卡普里奥",
+     "约瑟夫·高登-莱维特",
+     "艾利奥特·佩吉",
+     "汤姆·哈迪",
+     "渡边谦",
+     "迪利普·劳"
+    ]
+   }
   },
   "26752088": {
    "id": "26752088",
@@ -8056,7 +11776,41 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2527119568.jpg",
    "intro": "2018-06-30(大规模点映) / 2018-07-05(中国大陆) / 徐峥 / 王传君 / 周一围 / 谭卓 / 章宇 / 杨新鸣 / 王砚辉 / 王佳佳 / 贾弘逍 / 龚蓓苾 / 中国大陆 / 文牧野 / 2018-06-30 00:00 / 117分钟 / 剧情 / 喜剧 / 韩家女 Jianü Han / 钟伟 Wei Zhong / 文牧野 Muye Wen / 汉语普通话 / 英语 / 上海话 / 印地语",
-   "orig": ""
+   "orig": "",
+   "detail": {
+    "title": "我不是药神",
+    "original_title": "",
+    "year": 2018,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "117分钟"
+    ],
+    "genres": [
+     "剧情",
+     "喜剧"
+    ],
+    "countries": [
+     "中国大陆"
+    ],
+    "languages": [
+     "汉语普通话",
+     "英语",
+     "上海话",
+     "印地语"
+    ],
+    "directors": [
+     "文牧野"
+    ],
+    "actors": [
+     "徐峥",
+     "王传君",
+     "周一围",
+     "谭卓",
+     "章宇",
+     "杨新鸣"
+    ]
+   }
   },
   "1292722": {
    "id": "1292722",
@@ -8066,7 +11820,42 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.jpg",
    "intro": "1997-11-01(东京电影节) / 1997-12-19(美国) / 1998-04-03(中国大陆) / 2023-04-03(中国大陆重映) / 莱昂纳多·迪卡普里奥 / 凯特·温斯莱特 / 比利·赞恩 / 凯西·贝茨 / 弗兰西丝·费舍 / 格劳瑞亚·斯图尔特 / 比尔·帕克斯顿 / 伯纳德·希尔 / 大卫·沃纳 / 维克多·加博 / 美国 / 詹姆斯·卡梅隆 / 194分钟 / 227分钟(白星版) / 泰坦尼克号 / 剧情 / 爱情 / 灾难 / 詹姆斯·卡梅隆 James Cameron / 英语 / 意大利语 / 德语 / 俄语",
-   "orig": "Titanic"
+   "orig": "Titanic",
+   "detail": {
+    "title": "泰坦尼克号",
+    "original_title": "Titanic",
+    "year": 1997,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "194分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情",
+     "灾难"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "意大利语",
+     "德语",
+     "俄语"
+    ],
+    "directors": [
+     "詹姆斯·卡梅隆"
+    ],
+    "actors": [
+     "莱昂纳多·迪卡普里奥",
+     "凯特·温斯莱特",
+     "比利·赞恩",
+     "凯西·贝茨",
+     "弗兰西丝·费舍",
+     "格劳瑞亚·斯图尔特"
+    ]
+   }
   },
   "1292720": {
    "id": "1292720",
@@ -8076,7 +11865,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p510876253.jpg",
    "intro": "1994-06-23(洛杉矶首映) / 1994-07-06(美国) / 汤姆·汉克斯 / 罗宾·怀特 / 加里·辛尼斯 / 麦凯尔泰·威廉逊 / 莎莉·菲尔德 / 海利·乔·奥斯蒙 / 迈克尔·康纳·亨弗里斯 / 哈罗德·G·赫瑟姆 / 山姆·安德森 / 伊俄涅·M·特雷奇 / 美国 / 罗伯特·泽米吉斯 / 142分钟 / 阿甘正传 / 剧情 / 爱情 / 艾瑞克·罗斯 Eric Roth / Winston Groom / 英语",
-   "orig": "Forrest Gump"
+   "orig": "Forrest Gump",
+   "detail": {
+    "title": "阿甘正传",
+    "original_title": "Forrest Gump",
+    "year": 1994,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "142分钟"
+    ],
+    "genres": [
+     "剧情",
+     "爱情"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "罗伯特·泽米吉斯"
+    ],
+    "actors": [
+     "汤姆·汉克斯",
+     "罗宾·怀特",
+     "加里·辛尼斯",
+     "麦凯尔泰·威廉逊",
+     "莎莉·菲尔德",
+     "海利·乔·奥斯蒙"
+    ]
+   }
   },
   "1291561": {
    "id": "1291561",
@@ -8086,7 +11906,39 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.jpg",
    "intro": "2001-07-20(日本) / 2019-06-21(中国大陆) / 柊瑠美 / 入野自由 / 夏木真理 / 菅原文太 / 中村彰男 / 玉井夕海 / 神木隆之介 / 内藤刚志 / 泽口靖子 / 我修院达也 / 日本 / 宫崎骏 / 125分钟 / 千与千寻 / 剧情 / 动画 / 奇幻 / 宫崎骏 Hayao Miyazaki / 日语",
-   "orig": "千と千尋の神隠し"
+   "orig": "千と千尋の神隠し",
+   "detail": {
+    "title": "千与千寻",
+    "original_title": "千と千尋の神隠し",
+    "year": 2001,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "125分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动画",
+     "奇幻"
+    ],
+    "countries": [
+     "日本"
+    ],
+    "languages": [
+     "日语"
+    ],
+    "directors": [
+     "宫崎骏"
+    ],
+    "actors": [
+     "柊瑠美",
+     "入野自由",
+     "夏木真理",
+     "菅原文太",
+     "中村彰男",
+     "玉井夕海"
+    ]
+   }
   },
   "1295644": {
    "id": "1295644",
@@ -8096,7 +11948,42 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.jpg",
    "intro": "1994-09-14(法国) / 2024-11-01(中国大陆) / 让·雷诺 / 娜塔莉·波特曼 / 加里·奥德曼 / 丹尼·爱罗 / 彼得·阿佩尔 / 迈克尔·巴达鲁科 / 艾伦·格里尼 / 伊丽莎白·瑞根 / 卡尔·马图斯维奇 / 弗兰克·赛格 / 法国 / 美国 / 吕克·贝松 / 133分钟(中国大陆) / 110分钟(剧场版) / 这个杀手不太冷 / 剧情 / 动作 / 犯罪 / 吕克·贝松 Luc Besson / 英语 / 意大利语 / 法语",
-   "orig": "Léon"
+   "orig": "Léon",
+   "detail": {
+    "title": "这个杀手不太冷",
+    "original_title": "Léon",
+    "year": 1994,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "133分钟"
+    ],
+    "genres": [
+     "剧情",
+     "动作",
+     "犯罪"
+    ],
+    "countries": [
+     "法国",
+     "美国"
+    ],
+    "languages": [
+     "英语",
+     "意大利语",
+     "法语"
+    ],
+    "directors": [
+     "吕克·贝松"
+    ],
+    "actors": [
+     "让·雷诺",
+     "娜塔莉·波特曼",
+     "加里·奥德曼",
+     "丹尼·爱罗",
+     "彼得·阿佩尔",
+     "迈克尔·巴达鲁科"
+    ]
+   }
   },
   "1292052": {
    "id": "1292052",
@@ -8106,7 +11993,38 @@
    "comment": "",
    "poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936346968.jpg",
    "intro": "1994-09-10(多伦多电影节) / 1994-10-14(美国) / 2026-08-28(中国大陆) / 蒂姆·罗宾斯 / 摩根·弗里曼 / 鲍勃·冈顿 / 威廉·赛德勒 / 克兰西·布朗 / 吉尔·贝罗斯 / 马克·罗斯顿 / 詹姆斯·惠特摩 / 杰弗里·德曼 / 拉里·布兰登伯格 / 美国 / 弗兰克·德拉邦特 / 142分钟 / 肖申克的救赎 / 犯罪 / 剧情 / 弗兰克·德拉邦特 Frank Darabont / 英语",
-   "orig": "The Shawshank Redemption"
+   "orig": "The Shawshank Redemption",
+   "detail": {
+    "title": "肖申克的救赎",
+    "original_title": "The Shawshank Redemption",
+    "year": 1994,
+    "is_tv": false,
+    "episodes": 0,
+    "durations": [
+     "142分钟"
+    ],
+    "genres": [
+     "剧情",
+     "犯罪"
+    ],
+    "countries": [
+     "美国"
+    ],
+    "languages": [
+     "英语"
+    ],
+    "directors": [
+     "弗兰克·德拉邦特"
+    ],
+    "actors": [
+     "蒂姆·罗宾斯",
+     "摩根·弗里曼",
+     "鲍勃·冈顿",
+     "威廉·赛德勒",
+     "克兰西·布朗",
+     "吉尔·贝罗斯"
+    ]
+   }
   },
   "30181230": {
    "id": "30181230",
@@ -8116,7 +12034,37 @@
    "comment": "",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2554916825.jpg",
    "intro": "2019-03-24(中国台湾) / 贾静雯 / 温升豪 / 吴慷仁 / 周采诗 / 陈妤 / 洪都拉斯 / 曾沛慈 / 林哲熹 / 施名帅 / 林予晞 / 中国台湾 / 林君阳 / 55分钟 / 我们与恶的距离 / 剧情 / 吕蒔媛 Lu Shih-Yuan / 汉语普通话",
-   "orig": "我們與惡的距離"
+   "orig": "我們與惡的距離",
+   "detail": {
+    "title": "我们与恶的距离",
+    "original_title": "我們與惡的距離",
+    "year": 2019,
+    "is_tv": true,
+    "episodes": 10,
+    "durations": [
+     "55分钟"
+    ],
+    "genres": [
+     "剧情"
+    ],
+    "countries": [
+     "中国台湾"
+    ],
+    "languages": [
+     "汉语普通话"
+    ],
+    "directors": [
+     "林君阳"
+    ],
+    "actors": [
+     "贾静雯",
+     "温升豪",
+     "吴慷仁",
+     "周采诗",
+     "陈妤",
+     "洪都拉斯"
+    ]
+   }
   },
   "35280547": {
    "id": "35280547",
@@ -8126,7 +12074,39 @@
    "comment": "非常好！",
    "poster_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2767856686.jpg",
    "intro": "2021-10-29(泰国) / 格拉帕·格潘 / 帕瓦·吉沙晚迪 / 帕兰妮·琳帕缇雅空 / 萨塔布·莱德克 / 纳塔里·瓦拉功勒希 / 塔纳瓦特·斯里瓦塔纳功 / 潘萨·沃斯毕恩 / 罗宁·提姆 / 吉迪朋·瑟利维查亚萨瓦 / 纳帕特·帕查拉恰瓦雷 / 泰国 / 诺凡纳奇·柴亚文宏 / 45分钟 / 两小无拆 / 喜剧 / 爱情 / 同性 / Bee Pongset Laksamipong / Pratchaya Thavornthummarut / Best Kittisak Kongka / 泰语",
-   "orig": "แค่เพื่อนครับเพื่อน"
+   "orig": "แค่เพื่อนครับเพื่อน",
+   "detail": {
+    "title": "两小无拆",
+    "original_title": "แค่เพื่อนครับเพื่อน",
+    "year": 2021,
+    "is_tv": true,
+    "episodes": 12,
+    "durations": [
+     "45分钟"
+    ],
+    "genres": [
+     "喜剧",
+     "爱情",
+     "同性"
+    ],
+    "countries": [
+     "泰国"
+    ],
+    "languages": [
+     "泰语"
+    ],
+    "directors": [
+     "诺凡纳奇·柴亚文宏"
+    ],
+    "actors": [
+     "格拉帕·格潘",
+     "帕瓦·吉沙晚迪",
+     "帕兰妮·琳帕缇雅空",
+     "Jitaraphol Potiwihok",
+     "萨塔布·莱德克",
+     "纳塔里·瓦拉功勒希"
+    ]
+   }
   },
   "35049544": {
    "id": "35049544",
