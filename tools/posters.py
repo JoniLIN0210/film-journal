@@ -131,13 +131,36 @@ def pick_posters(tm, season):
     return kept
 
 
+def load_notes():
+    f = os.path.join(ROOT, 'tools', 'curation.json')
+    return {k: v for k, v in (json.load(open(f, encoding='utf-8')) if os.path.exists(f) else {}).items() if not k.startswith('_')}
+
+
+def pin_noted(cache, notes):
+    """A note can name the exact TMDB poster it is about ("tmdb": "/abc.jpg"). Make sure that poster is in the
+    film's set (it may have been dropped as a near-duplicate or ranked too low) and show it first."""
+    for fid, n in notes.items():
+        c = cache.get(fid)
+        if not c or not c.get('tm'): continue
+        paths = [it['tmdb'] for it in n.get('items', []) if it.get('tmdb')]
+        if not paths: continue
+        have = {q[0]: q for q in c['p']}
+        missing = [x for x in paths if x not in have]
+        if missing:
+            kind, tid = c['tm'].split('/')
+            info = {q['file_path']: q for q in ((api(f'/{kind}/{tid}/images') or {}).get('posters') or [])}
+            for x in missing:
+                q = info.get(x)
+                have[x] = [x, (q or {}).get('iso_639_1') or '', round(q['width'] / q['height'], 3) if q else 0.667, round((q or {}).get('vote_average') or 0, 1)]
+        c['p'] = [have[x] for x in paths] + [q for q in c['p'] if q[0] not in paths]
+
+
 def build(lib, cache):
+    notes = load_notes()
     out = {}
     for fid, c in cache.items():
         if fid in lib['films'] and c.get('tm') and c.get('p'):
             out[fid] = {'tm': c['tm'], 'n': c.get('name', ''), 'p': c['p']}
-    notes_file = os.path.join(ROOT, 'tools', 'curation.json')
-    notes = json.load(open(notes_file, encoding='utf-8')) if os.path.exists(notes_file) else {}
     notes = {k: v for k, v in notes.items() if k in out}
     with open(OUT, 'w', encoding='utf-8') as fh:
         fh.write('window.POSTERS = ' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n')
@@ -168,6 +191,7 @@ def run(refresh=False, log=print):
             cache[fid] = entry; done += 1
             if done % 25 == 0:
                 log(f'  {done}/{len(todo)}'); json.dump(cache, open(CACHE, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    pin_noted(cache, load_notes())
     json.dump(cache, open(CACHE, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     out = build(lib, cache)
     missing = [lib['films'][fid]['title'] for fid in lib['films'] if not (cache.get(fid) or {}).get('p')]

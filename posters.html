@@ -45,7 +45,7 @@
   .px-version .l { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--dim); text-transform: uppercase; line-height: 1.7; }
   .px-version .l b { color: var(--ink); font-weight: 400; }
   .px-note-btn { margin-top: 22px; font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--black) !important; background: var(--lime) !important; padding: 9px 14px !important; border-radius: 999px; }
-  .px-note { margin-top: 18px; font-size: 14px; line-height: 1.85; color: rgba(244, 241, 234, .86); max-width: 460px; }
+  .px-note { margin-top: 12px; font-size: 14px; line-height: 1.85; color: rgba(244, 241, 234, .86); max-width: 460px; }
   .px-note .h { font-family: var(--cn); font-weight: 700; font-size: 17px; color: var(--ink); margin-bottom: 8px; }
   .px-note .by { font-family: var(--display); font-style: italic; font-size: 19px; color: var(--lime); margin-bottom: 8px; }
   .px-note .which { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); margin-bottom: 10px; }
@@ -64,6 +64,14 @@
   @keyframes drift { from { transform: scale(1); } to { transform: scale(1.035); } }
   .px-frame .loading[hidden] { display: none; }
   .px-frame .loading { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--dim); }
+  .px-badge { position: absolute; left: 0; top: 0; z-index: 2; transform: translate(-10px, -10px); background: var(--lime); color: var(--black); font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; padding: 7px 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45); max-width: 80%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .px-badge b { font-family: var(--display); font-style: italic; font-weight: 400; font-size: 13px; letter-spacing: 0; text-transform: none; margin-left: 6px; }
+  .px-note-wrap { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--faint); }
+  .px-note-wrap .lbl { font-family: var(--mono); font-size: 10px; letter-spacing: .16em; color: var(--lime); text-transform: uppercase; display: flex; justify-content: space-between; gap: 10px; }
+  .px-note-wrap .lbl button { color: var(--dim); font: inherit; letter-spacing: inherit; }
+  .px-strip button.noted { position: relative; }
+  .px-strip button.noted::after { content: ""; position: absolute; right: 4px; top: 4px; width: 7px; height: 7px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 2px rgba(5, 5, 6, .7); }
+  .px-card .tag { position: absolute; left: 6px; top: 6px; font-family: var(--mono); font-size: 10px; letter-spacing: .1em; background: var(--lime); color: var(--black); padding: 3px 7px; }
   .px-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 52px; height: 52px; border-radius: 50% !important; border: 1px solid var(--faint) !important; font-size: 18px; color: var(--ink); opacity: .7; transition: opacity .2s, background .2s, color .2s; z-index: 3; }
   .px-arrow:hover { opacity: 1; background: var(--lime) !important; color: var(--black); border-color: var(--lime) !important; }
   .px-arrow.prev { left: 0; } .px-arrow.next { right: 0; }
@@ -134,6 +142,7 @@
     <div class="px-tools">
       <button data-act="index">索引 · Index</button>
       <button data-act="play" aria-pressed="false">▶ 播放</button>
+      <button data-act="tour" aria-pressed="false">名作导览</button>
       <button data-act="shuffle">随机</button>
       <a href="index.html">主页</a>
     </div>
@@ -143,7 +152,7 @@
 
   <section class="px-stage" id="stage">
     <button class="px-arrow prev" data-step="-1" aria-label="上一张">←</button>
-    <div class="px-frame" id="frame"><div class="loading">Loading</div><img alt=""><img alt=""></div>
+    <div class="px-frame" id="frame"><div class="loading">Loading</div><img alt=""><img alt=""><div class="px-badge" id="badge" hidden></div></div>
     <button class="px-arrow next" data-step="1" aria-label="下一张">→</button>
   </section>
 
@@ -170,13 +179,18 @@
 const IMG = 'https://image.tmdb.org/t/p/';
 const P = window.POSTERS || {}, NOTES = window.POSTER_NOTES || {};
 const LANG = { '': '无字版', en: '英文版', zh: '中文版', ja: '日文版', ko: '韩文版', fr: '法文版', de: '德文版', es: '西班牙文版', it: '意大利文版', ru: '俄文版', pt: '葡萄牙文版', pl: '波兰文版', cs: '捷克文版', sv: '瑞典文版', da: '丹麦文版', nl: '荷兰文版', tr: '土耳其文版', th: '泰文版', hu: '匈牙利文版', uk: '乌克兰文版', he: '希伯来文版', fi: '芬兰文版', no: '挪威文版', el: '希腊文版', ro: '罗马尼亚文版', ar: '阿拉伯文版', fa: '波斯文版', vi: '越南文版', id: '印尼文版', hi: '印地文版', ka: '格鲁吉亚文版', sk: '斯洛伐克文版', bg: '保加利亚文版', sr: '塞尔维亚文版', hr: '克罗地亚文版', lt: '立陶宛文版', lv: '拉脱维亚文版', et: '爱沙尼亚文版', sl: '斯洛文尼亚文版', ca: '加泰罗尼亚文版' };
+// notes pinned to one exact poster ("tmdb" path) vs. notes about a film's posters in general
+const NOTE_AT = {}, FILM_NOTE = {};
+Object.entries(NOTES).forEach(([fid, n]) => (n.items || []).forEach((it) => { if (it.tmdb) NOTE_AT[it.tmdb] = it; else if (!FILM_NOTE[fid]) FILM_NOTE[fid] = it; }));
+const hasNote = (m) => !!(NOTES[m.id] && (NOTES[m.id].items || []).length);
+const firstNoted = (m) => Math.max(0, posters(m).findIndex((q) => NOTE_AT[q[0]]));
 const langOf = (l) => LANG[l] || (l ? l.toUpperCase() + ' 版' : '无字版');
 const ALL = M.filter((m) => P[m.id] && P[m.id].p.length).sort(byDateDesc);
 const total = ALL.reduce((n, m) => n + P[m.id].p.length, 0);
 const years = [...new Set(ALL.map((m) => m.date.slice(0, 4)).filter(Boolean))].sort().reverse();
 
-let list = ALL.slice(), fi = 0, vi = 0, playing = false, timer = null, layer = 0, noteOpen = false, shownPath = '', seq = 0;
-const state = { year: '', five: false, sort: 'date' };
+let list = ALL.slice(), fi = 0, vi = 0, playing = false, timer = null, layer = 0, noteOpen = null, shownPath = '', seq = 0;
+const state = { year: '', five: false, noted: false, sort: 'date' };
 const room = $('#room'), frame = $('#frame'), idx = $('#index');
 const posters = (m) => P[m.id].p;   // [file_path, lang, aspect, vote]
 
@@ -210,20 +224,26 @@ function show(dir = 0) {
     if (b.src === bgUrl && b.complete && b.naturalWidth) glow(); else b.src = bgUrl;
   }
   // info
-  const note = NOTES[m.id] && NOTES[m.id].items && NOTES[m.id].items[0];
+  const pinned = NOTE_AT[p[0]], loose = !pinned && FILM_NOTE[m.id];
+  const badge = $('#badge');
+  badge.hidden = !pinned;
+  if (pinned) badge.innerHTML = `名作${pinned.designer && !/^设计者未公开/.test(pinned.designer) ? `<b>${esc(pinned.designer.split(/[·（(；]/)[0].trim())}</b>` : ''}`;
+  const noteBlock = pinned
+    ? `<div class="px-note-wrap"><div class="lbl"><span>海报赏析 · Poster Notes</span><button data-act="note">${noteOpen === false ? '展开' : '收起'}</button></div>${noteOpen === false ? '' : noteHTML(pinned, true)}</div>`
+    : loose ? `<div class="px-note-wrap"><div class="lbl"><span>关于这部片的海报</span><button data-act="note">${noteOpen ? '收起' : '展开'}</button></div>${noteOpen ? noteHTML(loose, false) : ''}</div>` : '';
   const meta = [m.y, (m.d || []).slice(0, 2).join(' / '), (m.c || [])[0]].filter(Boolean).map(esc).join('　·　');
   $('#info').innerHTML = `
     <div class="px-kicker"><b>No. ${String(ALL.indexOf(m) + 1).padStart(3, '0')}</b>　/　${ALL.length}　·　${esc(m.date.replace(/-/g, '.'))} 看过</div>
     <h1 class="px-title">${esc(m.t)}</h1>
     ${m.o && m.o !== m.t ? `<div class="px-orig">${esc(m.o)}</div>` : ''}
     <div class="px-meta">${meta}${m.r ? `<span class="stars">${'★'.repeat(m.r)}</span>` : ''}</div>
-    ${m.cm ? `<blockquote class="px-quote">${esc(m.cm.length > 140 ? m.cm.slice(0, 140) + '…' : m.cm)}<small>— ${esc(ME)} 的短评</small></blockquote>` : ''}
+    ${m.cm && !(pinned && noteOpen !== false) ? `<blockquote class="px-quote">${esc(m.cm.length > 140 ? m.cm.slice(0, 140) + '…' : m.cm)}<small>— ${esc(ME)} 的短评</small></blockquote>` : ''}
     <div class="px-version"><div class="n">${String(vi + 1).padStart(2, '0')}<small>/ ${String(ps.length).padStart(2, '0')}</small></div>
       <div class="l"><b>${esc(langOf(p[1]))}</b><br>${p[3] ? `TMDB ★ ${p[3]}` : '同一部影片的不同海报'}</div></div>
-    ${note ? `<button class="px-note-btn" data-act="note">${noteOpen ? '收起赏析' : '海报赏析 →'}</button>${noteOpen ? noteHTML(note) : ''}` : ''}
+    ${noteBlock}
     <div class="px-films">${fi > 0 ? `<button data-jump="-1">↑ ${esc(list[fi - 1].t)}</button>` : ''}${fi < list.length - 1 ? `<button data-jump="1">↓ ${esc(list[fi + 1].t)}</button>` : ''}</div>`;
   // filmstrip
-  $('#strip').innerHTML = ps.map((q, i) => `<button data-v="${i}" aria-current="${i === vi}" aria-label="第 ${i + 1} 张"><img loading="lazy" src="${IMG}w154${q[0]}" alt=""></button>`).join('');
+  $('#strip').innerHTML = ps.map((q, i) => `<button data-v="${i}" class="${NOTE_AT[q[0]] ? 'noted' : ''}" aria-current="${i === vi}" aria-label="第 ${i + 1} 张"><img loading="lazy" src="${IMG}w154${q[0]}" alt=""></button>`).join('');
   const strip = $('#strip'), cur2 = $('#strip [aria-current=true]');   // centre the current thumbnail without scrolling the page
   if (cur2) strip.scrollTo({ left: cur2.offsetLeft - strip.clientWidth / 2 + cur2.clientWidth / 2, behavior: 'smooth' });
   // neighbours, so the next step is instant
@@ -231,30 +251,32 @@ function show(dir = 0) {
   history.replaceState(null, '', `#${m.id}/${vi + 1}`);
   document.title = `《${m.t}》· ${ME} 的海报馆`;
 }
-function noteHTML(n) {
+function noteHTML(n, here) {
   return `<div class="px-note">
-    <div class="which">关于其中一张海报${[n.kind, n.region].filter(Boolean).length ? '：' + esc([n.region, n.kind].filter(Boolean).join(' ')) : ''}</div>
+    <div class="which">${here ? esc([n.region, n.kind, n.year].filter(Boolean).join(' · ')) : '关于其中一张海报' + ([n.kind, n.region].filter(Boolean).length ? '：' + esc([n.region, n.kind].filter(Boolean).join(' ')) : '')}</div>
     ${n.headline ? `<div class="h">${esc(n.headline)}</div>` : ''}
     ${n.designer ? `<div class="by">${esc(n.designer)}</div>` : ''}
     ${(n.text || '').split('\n').filter(Boolean).map((t) => `<p>${esc(t)}</p>`).join('')}
     ${(n.sources || []).length ? `<div class="src">参考：${n.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('')}</div>` : ''}</div>`;
 }
 const stepV = (d) => { const n = posters(list[fi]).length; vi = (vi + d + n) % n; show(d); };
-const stepF = (d) => { if (!list.length) return; fi = (fi + d + list.length) % list.length; vi = 0; noteOpen = false; show(d); };
-function advance() {   // autoplay: through this film's versions, then on to the next film
+const stepF = (d) => { if (!list.length) return; fi = (fi + d + list.length) % list.length; vi = state.noted ? firstNoted(list[fi]) : 0; noteOpen = null; show(d); };
+function advance() {   // autoplay: through this film's versions, then on to the next film (touring: noted posters only)
+  if (state.noted) { const ps = posters(list[fi]), nx = ps.findIndex((q, i) => i > vi && NOTE_AT[q[0]]); if (nx > 0) { vi = nx; show(1); } else stepF(1); return; }
   if (vi < posters(list[fi]).length - 1) stepV(1); else stepF(1);
 }
 function setPlay(on) {
-  playing = on; clearInterval(timer);
+  playing = on; clearTimeout(timer);
   room.classList.toggle('playing', on);
   document.querySelector('[data-act=play]').setAttribute('aria-pressed', on);
   document.querySelector('[data-act=play]').textContent = on ? '❚❚ 暂停' : '▶ 播放';
-  if (on) timer = setInterval(advance, 6000);
+  const tick = () => { timer = setTimeout(() => { advance(); tick(); }, NOTE_AT[posters(list[fi])[vi][0]] ? 15000 : 6000); };
+  if (on) tick();
 }
 
 /* ---------- index ---------- */
 function applyFilters() {
-  list = ALL.filter((m) => (!state.year || m.date.startsWith(state.year)) && (!state.five || m.r === 5));
+  list = ALL.filter((m) => (!state.year || m.date.startsWith(state.year)) && (!state.five || m.r === 5) && (!state.noted || hasNote(m)));
   if (state.sort === 'year') list.sort((a, b) => (b.y || 0) - (a.y || 0));
   if (state.sort === 'old') list.sort((a, b) => (a.y || 9999) - (b.y || 9999));
   if (state.sort === 'most') list.sort((a, b) => posters(b).length - posters(a).length);
@@ -264,10 +286,10 @@ function renderIndex() {
   applyFilters();
   $('#index-sub').textContent = `${ALL.length} 部影视，${total} 张海报（同一张图的不同语言版本已合并）。当前 ${list.length} 部。`;
   $('#filters').innerHTML = [['', '全部年份'], ...years.map((y) => [y, y])].map(([v, l]) => `<button class="chip" data-year="${v}" aria-pressed="${state.year === v}">${l}</button>`).join('')
-    + `<span class="sep"></span><button class="chip" data-five aria-pressed="${state.five}">只看五星</button>`
+    + `<span class="sep"></span><button class="chip" data-five aria-pressed="${state.five}">只看五星</button><button class="chip" data-noted aria-pressed="${state.noted}">有赏析 ${ALL.filter(hasNote).length}</button>`
     + `<select id="sort" aria-label="排序"><option value="date">最近看过</option><option value="year">上映年份 新→旧</option><option value="old">上映年份 旧→新</option><option value="most">海报最多</option></select>`;
   $('#sort').value = state.sort;
-  $('#grid').innerHTML = list.map((m, i) => `<button class="px-card" data-go="${i}"><div class="img"><img loading="lazy" src="${IMG}w342${posters(m)[0][0]}" alt=""><span class="k">${posters(m).length} 款</span></div>
+  $('#grid').innerHTML = list.map((m, i) => `<button class="px-card" data-go="${i}"><div class="img"><img loading="lazy" src="${IMG}w342${posters(m)[0][0]}" alt=""><span class="k">${posters(m).length} 款</span>${hasNote(m) ? '<span class="tag">赏析</span>' : ''}</div>
     <div class="t">${esc(m.t)}</div><div class="m">${[m.y, m.date.slice(0, 4) + ' 看过'].filter(Boolean).join(' · ')}${m.r === 5 ? ' <span class="s">★★★★★</span>' : ''}</div></button>`).join('')
     || '<p class="sub">没有符合条件的影片。</p>';
 }
@@ -275,9 +297,9 @@ const openIndex = () => { setPlay(false); renderIndex(); idx.classList.add('open
 const closeIndex = () => idx.classList.remove('open');
 idx.addEventListener('click', (e) => {
   const c = e.target.closest('.chip');
-  if (c) { if ('year' in c.dataset) state.year = c.dataset.year; if ('five' in c.dataset) state.five = !state.five; renderIndex(); return; }
+  if (c) { if ('year' in c.dataset) state.year = c.dataset.year; if ('five' in c.dataset) state.five = !state.five; if ('noted' in c.dataset) { state.noted = !state.noted; document.querySelector('[data-act=tour]').setAttribute('aria-pressed', state.noted); } renderIndex(); return; }
   const g = e.target.closest('[data-go]');
-  if (g) { fi = +g.dataset.go; vi = 0; noteOpen = false; closeIndex(); show(); return; }
+  if (g) { fi = +g.dataset.go; vi = hasNote(list[fi]) ? firstNoted(list[fi]) : 0; noteOpen = null; closeIndex(); show(); return; }
   if (e.target.closest('[data-act=close]')) { closeIndex(); }
 });
 idx.addEventListener('change', (e) => { if (e.target.id === 'sort') { state.sort = e.target.value; renderIndex(); } });
@@ -293,8 +315,15 @@ document.addEventListener('click', (e) => {
   const a = t.dataset.act;
   if (a === 'index') openIndex();
   if (a === 'play') setPlay(!playing);
-  if (a === 'note') { noteOpen = !noteOpen; show(); }
-  if (a === 'shuffle') { fi = Math.floor(Math.random() * list.length); vi = Math.floor(Math.random() * posters(list[fi]).length); noteOpen = false; show(); }
+  if (a === 'note') { const pinnedNow = NOTE_AT[posters(list[fi])[vi][0]]; noteOpen = pinnedNow ? noteOpen === false : !noteOpen; show(); }
+  if (a === 'tour') {
+    const here = list[fi], hereV = vi;
+    state.noted = !state.noted; t.setAttribute('aria-pressed', state.noted); applyFilters();
+    const at = list.indexOf(here);   // stay on the current film when it is still in the list
+    if (at >= 0) { fi = at; vi = state.noted ? firstNoted(here) : hereV; } else { fi = 0; vi = list.length ? firstNoted(list[0]) : 0; }
+    noteOpen = null; if (list.length) show();
+  }
+  if (a === 'shuffle') { fi = Math.floor(Math.random() * list.length); vi = Math.floor(Math.random() * posters(list[fi]).length); noteOpen = null; show(); }
   if (playing && a !== 'play') setPlay(true);   // restart the clock after a manual step
 });
 document.addEventListener('keydown', (e) => {
